@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "updated": "2026-10-29",
+  "terms": {
+    "en": [
+      {
+        "title": "About NFC Tools",
+        "body": "NFC Tools lets you read, save, write, clone and emulate NFC tags with your iPhone. It uses parts of iOS that Apple doesn't offer to regular apps, so it only runs on iPhones set up for it, for example with TrollStore or a jailbreak. NFC Tools is an independent project. It is not made, approved or supported by Apple."
+      },
+      {
+        "title": "Use It Responsibly",
+        "body": "Only read, copy, write or emulate tags that you own or have permission to use. Copying or emulating access cards, transit cards, payment cards or other tags that belong to someone else may be illegal or against the rules of whoever issued them. You are responsible for how you use NFC Tools and for following the laws where you live."
+      },
+      {
+        "title": "Your iPhone and Your Tags",
+        "body": "While it works with NFC, the app may restart or take over your iPhone's NFC service, so Apple Pay, Wallet and other NFC features may not work until it stops. Writing to a tag can change or erase what's on it, and some changes, like locking a tag or changing its ID, can't be undone. Keep a copy of anything important first."
+      },
+      {
+        "title": "NFC Tools Plus",
+        "body": "NFC Tools Plus is an optional add-on for jailbroken iPhones that adds Control Center tiles and a command-line tool. These terms cover it too. Installing add-ons on a jailbroken iPhone is at your own risk."
+      },
+      {
+        "title": "No Warranty",
+        "body": "NFC Tools is provided “as is”, without any warranty. As far as the law allows, the developer isn't responsible for any loss or damage from using it, including tags that are changed or erased, lost data, an iPhone that stops working properly, or problems caused by how you use the app."
+      },
+      {
+        "title": "Changes to These Terms",
+        "body": "These terms may be updated as the app changes. The version shown here is the one that applies. If you keep using NFC Tools after an update, you accept the updated terms."
+      },
+      {
+        "title": "Contact",
+        "body": "Questions about these terms? Contact the developer at github.com/IiemB."
+      }
+    ],
+    "id": [
+      {
+        "title": "Tentang NFC Tools",
+        "body": "NFC Tools memungkinkan Anda membaca, menyimpan, menulis, mengkloning, dan mengemulasikan tag NFC dengan iPhone Anda. Aplikasi ini memakai bagian iOS yang tidak disediakan Apple untuk aplikasi biasa, sehingga hanya berjalan di iPhone yang disiapkan untuk itu, misalnya dengan TrollStore atau jailbreak. NFC Tools adalah proyek independen. Aplikasi ini tidak dibuat, disetujui, atau didukung oleh Apple."
+      },
+      {
+        "title": "Gunakan dengan Bertanggung Jawab",
+        "body": "Hanya baca, salin, tulis, atau emulasikan tag milik Anda atau yang Anda punya izin untuk menggunakannya. Menyalin atau mengemulasikan kartu akses, kartu transportasi, kartu pembayaran, atau tag lain milik orang lain dapat melanggar hukum atau aturan penerbitnya. Anda bertanggung jawab atas cara Anda menggunakan NFC Tools dan mematuhi hukum di tempat Anda tinggal."
+      },
+      {
+        "title": "iPhone dan Tag Anda",
+        "body": "Saat bekerja dengan NFC, aplikasi dapat memulai ulang atau mengambil alih layanan NFC iPhone Anda, sehingga Apple Pay, Wallet, dan fitur NFC lainnya mungkin tidak berfungsi sampai aplikasi berhenti. Menulis ke tag dapat mengubah atau menghapus isinya, dan beberapa perubahan, seperti mengunci tag atau mengubah ID-nya, tidak dapat dibatalkan. Simpan salinan hal penting terlebih dahulu."
+      },
+      {
+        "title": "NFC Tools Plus",
+        "body": "NFC Tools Plus adalah add-on opsional untuk iPhone yang di-jailbreak yang menambahkan tile Pusat Kontrol dan alat baris perintah. Ketentuan ini juga berlaku untuknya. Memasang add-on di iPhone yang di-jailbreak adalah risiko Anda sendiri."
+      },
+      {
+        "title": "Tanpa Jaminan",
+        "body": "NFC Tools disediakan “apa adanya”, tanpa jaminan apa pun. Sejauh diizinkan hukum, pengembang tidak bertanggung jawab atas kerugian atau kerusakan akibat penggunaannya, termasuk tag yang berubah atau terhapus, data yang hilang, iPhone yang tidak berfungsi dengan baik, atau masalah akibat cara Anda menggunakan aplikasi."
+      },
+      {
+        "title": "Perubahan Ketentuan",
+        "body": "Ketentuan ini dapat diperbarui seiring perubahan aplikasi. Versi yang ditampilkan di sini adalah yang berlaku. Jika Anda tetap menggunakan NFC Tools setelah pembaruan, Anda menerima ketentuan yang diperbarui."
+      },
+      {
+        "title": "Kontak",
+        "body": "Ada pertanyaan tentang ketentuan ini? Hubungi pengembang di github.com/IiemB."
+      }
+    ]
+  },
+  "privacy": {
+    "en": [
+      {
+        "title": "In Short",
+        "body": "NFC Tools doesn't collect, sell or share your data. There are no accounts, ads or analytics, and the app doesn't send your data to the developer or anyone else."
+      },
+      {
+        "title": "What Stays on Your iPhone",
+        "body": "Tags you save (their ID, type, contents, nickname, icon and color), your settings, your widget and Control Center choices, and the app's activity log are kept only on this iPhone. Deleting a tag removes it."
+      },
+      {
+        "title": "NFC Tags",
+        "body": "When you scan a tag, your iPhone reads its data, and it's saved only if you choose to save it. Tag data is never uploaded."
+      },
+      {
+        "title": "When Data Leaves Your iPhone",
+        "body": "Only when you choose: for example, when you export a tag to a file and share it, or copy a value. Links in the app, like the developer's page, open in your browser, which has its own privacy policy.\n\nTo show the latest version of these terms, the app downloads them from GitHub. That request doesn't include any of your data, though GitHub can see your IP address, as with any website."
+      },
+      {
+        "title": "Reports to the Developer",
+        "body": "The Diagnostics page will later offer a Send Report button. When it's available, a report is sent only when you tap it, and it includes the Diagnostics results and the app's activity log. Nothing is ever sent automatically."
+      },
+      {
+        "title": "Changes and Contact",
+        "body": "If this policy changes, the updated version will appear here. Questions? Contact the developer at github.com/IiemB."
+      }
+    ],
+    "id": [
+      {
+        "title": "Ringkasnya",
+        "body": "NFC Tools tidak mengumpulkan, menjual, atau membagikan data Anda. Tidak ada akun, iklan, atau analitik, dan aplikasi tidak mengirim data Anda kepada pengembang atau siapa pun."
+      },
+      {
+        "title": "Yang Tetap di iPhone Anda",
+        "body": "Tag yang Anda simpan (ID, jenis, isi, nama panggilan, ikon, dan warnanya), pengaturan Anda, pilihan widget dan Pusat Kontrol, serta log aktivitas aplikasi hanya disimpan di iPhone ini. Menghapus tag akan menghapusnya."
+      },
+      {
+        "title": "Tag NFC",
+        "body": "Saat Anda memindai tag, iPhone Anda membaca datanya, dan data itu hanya disimpan jika Anda memilih untuk menyimpannya. Data tag tidak pernah diunggah."
+      },
+      {
+        "title": "Saat Data Meninggalkan iPhone Anda",
+        "body": "Hanya saat Anda memilihnya: misalnya, saat Anda mengekspor tag ke file dan membagikannya, atau menyalin suatu nilai. Tautan di aplikasi, seperti halaman pengembang, dibuka di browser Anda, yang memiliki kebijakan privasinya sendiri.\n\nUntuk menampilkan versi terbaru ketentuan ini, aplikasi mengunduhnya dari GitHub. Permintaan itu tidak menyertakan data Anda, meskipun GitHub dapat melihat alamat IP Anda, seperti situs web lainnya."
+      },
+      {
+        "title": "Laporan ke Pengembang",
+        "body": "Halaman Diagnostik nantinya akan menyediakan tombol Kirim Laporan. Saat tersedia, laporan hanya dikirim ketika Anda mengetuknya, dan berisi hasil Diagnostik serta log aktivitas aplikasi. Tidak ada yang pernah dikirim secara otomatis."
+      },
+      {
+        "title": "Perubahan dan Kontak",
+        "body": "Jika kebijakan ini berubah, versi terbaru akan ditampilkan di sini. Ada pertanyaan? Hubungi pengembang di github.com/IiemB."
+      }
+    ]
+  }
+}
