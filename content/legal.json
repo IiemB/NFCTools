@@ -83,7 +83,7 @@
       },
       {
         "title": "Reports to the Developer",
-        "body": "The Diagnostics page has a Send Report button. A report is sent only when you tap it, and you can see what it includes before sending. It contains the Diagnostics results, basic details like your iPhone model and iOS version, any note you add, and, if you leave it on, the app's activity log, which may include some details about tags you've used.\n\nThe log is encrypted on your iPhone before it's sent, so only the developer can read it; the services that deliver the report can't. Reports are only used to fix problems. Nothing is ever sent automatically."
+        "body": "The Diagnostics page has a Send Report button. A report is sent only when you tap it, and you can see what it includes before sending. It contains the Diagnostics results, basic details like your iPhone model and iOS version, any note you add, and the app's activity log, which helps trace the problem and may include some details about tags you've used.\n\nThe log is encrypted on your iPhone before it's sent, so only the developer can read it; the services that deliver the report can't. Reports are only used to fix problems. Nothing is ever sent automatically."
       },
       {
         "title": "Changes and Contact",
@@ -109,7 +109,7 @@
       },
       {
         "title": "Laporan ke Pengembang",
-        "body": "Halaman Diagnostik memiliki tombol Kirim Laporan. Laporan hanya dikirim ketika Anda mengetuknya, dan Anda dapat melihat isinya sebelum mengirim. Laporan berisi hasil Diagnostik, detail dasar seperti model iPhone dan versi iOS, catatan yang Anda tambahkan, dan, jika tetap diaktifkan, log aktivitas aplikasi, yang mungkin memuat beberapa detail tentang tag yang pernah Anda gunakan.\n\nLog dienkripsi di iPhone Anda sebelum dikirim, sehingga hanya pengembang yang dapat membacanya; layanan yang mengantarkan laporan tidak dapat membacanya. Laporan hanya digunakan untuk memperbaiki masalah. Tidak ada yang pernah dikirim secara otomatis."
+        "body": "Halaman Diagnostik memiliki tombol Kirim Laporan. Laporan hanya dikirim ketika Anda mengetuknya, dan Anda dapat melihat isinya sebelum mengirim. Laporan berisi hasil Diagnostik, detail dasar seperti model iPhone dan versi iOS, catatan yang Anda tambahkan, serta log aktivitas aplikasi, yang membantu melacak masalah dan mungkin memuat beberapa detail tentang tag yang pernah Anda gunakan.\n\nLog dienkripsi di iPhone Anda sebelum dikirim, sehingga hanya pengembang yang dapat membacanya; layanan yang mengantarkan laporan tidak dapat membacanya. Laporan hanya digunakan untuk memperbaiki masalah. Tidak ada yang pernah dikirim secara otomatis."
       },
       {
         "title": "Perubahan dan Kontak",
