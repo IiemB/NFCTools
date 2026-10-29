@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-10-29",
   "terms": {
     "en": [
@@ -83,7 +83,7 @@
       },
       {
         "title": "Reports to the Developer",
-        "body": "The Diagnostics page will later offer a Send Report button. When it's available, a report is sent only when you tap it, and it includes the Diagnostics results and the app's activity log. Nothing is ever sent automatically."
+        "body": "The Diagnostics page will later offer a Send Report button. When it's available, a report is sent only when you tap it. It includes the Diagnostics results, basic details like your iPhone model and iOS version, and the app's activity log, which may include some details about tags you've used. Reports are only used to fix problems. Nothing is ever sent automatically."
       },
       {
         "title": "Changes and Contact",
@@ -109,7 +109,7 @@
       },
       {
         "title": "Laporan ke Pengembang",
-        "body": "Halaman Diagnostik nantinya akan menyediakan tombol Kirim Laporan. Saat tersedia, laporan hanya dikirim ketika Anda mengetuknya, dan berisi hasil Diagnostik serta log aktivitas aplikasi. Tidak ada yang pernah dikirim secara otomatis."
+        "body": "Halaman Diagnostik nantinya akan menyediakan tombol Kirim Laporan. Saat tersedia, laporan hanya dikirim ketika Anda mengetuknya. Laporan berisi hasil Diagnostik, detail dasar seperti model iPhone dan versi iOS, serta log aktivitas aplikasi, yang mungkin memuat beberapa detail tentang tag yang pernah Anda gunakan. Laporan hanya digunakan untuk memperbaiki masalah. Tidak ada yang pernah dikirim secara otomatis."
       },
       {
         "title": "Perubahan dan Kontak",
