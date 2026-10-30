@@ -3,6 +3,7 @@
 ## 0.6.14
 
 **Fixed**
+- Fixed immediate crash when starting tag emulation on iOS 15 (report `BE92E2AA`).
 - Tried to fix tag scanning failing or not detecting tags on iOS 17.3+ and iOS 18 (reports `38C4C61C` and `8A6AADDC`).
 
 ## 0.6.13
