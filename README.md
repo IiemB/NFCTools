@@ -4,6 +4,10 @@
   <b>Comprehensive contactless NFC diagnostic suite, virtual tag emulation, and Control Center companion for iOS.</b>
 </p>
 
+<p align="center">
+  <b>English</b> | <a href="README.id.md">Bahasa Indonesia</a>
+</p>
+
 
 
 ---
@@ -128,4 +132,5 @@ The Terms of Use and Privacy Policy are in the app under **Settings › Terms & 
 
 ## ⚖️ Disclaimer
 
-*NFCTools is developed for educational, diagnostic, and authorized security research purposes on tags and hardware you own. Always ensure you have proper authorization before inspecting, writing, or emulating any contactless card.*
+- **Authorized Use**: NFCTools is developed for personal, educational, and diagnostic use on tags and hardware you own. Always ensure you have proper authorization before inspecting, writing, or emulating any contactless card.
+- **AI-Assisted Project**: This project originally started as a personal, private utility built to fit my own needs and workflow where existing tools fell short. It is shared as-is for anyone who finds it useful—feedback and bug reports are always welcome!
