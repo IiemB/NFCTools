@@ -3,7 +3,7 @@
 ## 0.6.14
 
 **Fixed**
-- Fixed tag scanning not detecting cards on iOS 18 (report `38C4C61C`, iPhone 11, iOS 18.6.2).
+- Tried to fix tag scanning failing or not detecting tags on iOS 17.3+ and iOS 18 (reports `38C4C61C` and `8A6AADDC`).
 
 ## 0.6.13
 
