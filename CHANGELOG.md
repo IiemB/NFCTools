@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.6.12
+## 0.6.13
 
 **Fixed**
 - Tried to fix the iPhone freezing when emulating with NFCTools Plus (report `2A08D941`, iPhone 15 Pro, iOS 17). Please test and tell me if it still happens.
