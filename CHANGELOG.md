@@ -3,7 +3,7 @@
 ## 0.6.15
 
 **Fixed**
-- Fixed immediate crash when starting tag emulation on iOS 15 (report `BE92E2AA`).
+- Tried to fix immediate crash when starting tag emulation on iOS 15 (report `BE92E2AA`).
 
 ## 0.6.14
 
