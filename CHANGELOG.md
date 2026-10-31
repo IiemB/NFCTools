@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.16
+
+**Fixed**
+- Tried to fix the app still crashing about 2 seconds after starting tag emulation on iOS 15 (report `A6537168`).
+
 ## 0.6.15
 
 **Fixed**
