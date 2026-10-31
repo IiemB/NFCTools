@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.17
+
+**Changed**
+- The Terms of Use and Privacy Policy are now easier to read on GitHub: see [`content/legal/`](content/legal/). In the app, they can now show bold text and links.
+
 ## 0.6.16
 
 **Fixed**
