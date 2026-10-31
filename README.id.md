@@ -120,7 +120,7 @@ Masukan dan laporan pengujian sangat membantu pengembangan proyek ini.
 
 ## 📄 Ketentuan & Privasi
 
-Ketentuan Penggunaan dan Kebijakan Privasi dapat dilihat langsung di aplikasi pada menu **Pengaturan › Ketentuan & Privasi**, dan teks sumbernya tersedia di [`content/legal/`](content/legal/) ([Ketentuan Penggunaan](content/legal/terms.id.md), [Kebijakan Privasi](content/legal/privacy.id.md)). Singkatnya: aplikasi ini tidak menggunakan akun, tidak ada iklan maupun analitik/pelacakan, dan tidak mengirim data apa pun ke pengembang kecuali Anda secara sukarela memilih untuk mengirim laporan masalah.
+Ketentuan Penggunaan dan Kebijakan Privasi dapat dilihat langsung di aplikasi pada menu **Pengaturan › Ketentuan & Privasi**, dan teks sumbernya tersedia di [`content/legal.json`](content/legal.json). Singkatnya: aplikasi ini tidak menggunakan akun, tidak ada iklan maupun analitik/pelacakan, dan tidak mengirim data apa pun ke pengembang kecuali Anda secara sukarela memilih untuk mengirim laporan masalah.
 
 ---
 

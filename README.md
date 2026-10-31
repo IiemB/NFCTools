@@ -126,7 +126,7 @@ Feedback and reports help a lot, so thank you.
 
 ## 📄 Terms & Privacy
 
-The Terms of Use and Privacy Policy are in the app under **Settings › Terms & Privacy**, and the source text is in [`content/legal/`](content/legal/) ([Terms of Use](content/legal/terms.en.md), [Privacy Policy](content/legal/privacy.en.md)). In short, the app has no accounts, ads, or analytics, and sends nothing to the developer unless you choose to send a report.
+The Terms of Use and Privacy Policy are in the app under **Settings › Terms & Privacy**, and the source text is in [`content/legal.json`](content/legal.json). In short, the app has no accounts, ads, or analytics, and sends nothing to the developer unless you choose to send a report.
 
 ---
 
