@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.6.17
+
+**Added**
+- New **What's New** page in Settings › Support shows this changelog, with your installed version marked "Current".
+
+**Changed**
+- Terms of Use and Privacy Policy are now kept as Markdown files in [`content/legal/`](https://github.com/IiemB/NFCTools/tree/main/content/legal), so they're easier to read on GitHub.
+- What's New and Terms & Privacy always load the latest text from GitHub. If they can't load, tap **Try Again** or **View on GitHub**.
+- A placeholder now shows while these pages load, instead of a spinner.
+
 ## 0.6.16
 
 **Fixed**
