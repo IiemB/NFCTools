@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.18
+
+**Added**
+- NFCTools Plus now shows the app icon next to its tiles in Settings › Control Center, and in Sileo / Zebra.
+
 ## 0.6.17
 
 **Added**
