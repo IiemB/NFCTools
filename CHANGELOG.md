@@ -4,6 +4,11 @@
 
 **Added**
 - NFCTools Plus now shows the app icon next to its tiles in Settings › Control Center, and in Sileo / Zebra.
+- Customize the NFCTools Plus emulation overlay: choose Pill, Compact, Island, Card, Bubble or Hidden, top, center or bottom of the screen, how it animates in (Drop, Pop, Fade or None), and a countdown bar that empties until auto-stop.
+- The NFCTools Plus overlay now shows the emulated tag's own icon and color. Tap **Preview Overlay** to see it.
+
+**Changed**
+- NFCTools Plus settings now open in their own page from Settings.
 
 ## 0.6.17
 
