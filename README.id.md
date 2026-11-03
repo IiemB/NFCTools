@@ -99,6 +99,9 @@ nfctools help                                    # Bantuan (dan tanggal kedaluwa
 - **Kompatibilitas**: iOS 15.0 ke atas (iOS 18 ke atas masih dalam tahap pengujian)
 - **Pemasangan**: Pasang berkas `NFCTools_<version>+<build>.ipa` menggunakan **TrollStore**.
 
+> [!IMPORTANT]
+> **TrollStore adalah satu-satunya cara pemasangan aplikasi yang didukung.** NFCTools membutuhkan entitlement NFC privat dan berjalan di luar sandbox aplikasi, yang hanya dapat diberikan oleh TrollStore. Sideload (AltStore, SideStore, Sideloadly, Xcode), LiveContainer, layanan signing, dan pemasang lain membuat aplikasi tetap berjalan dalam sandbox: aplikasi dapat dibuka, tetapi tidak dapat mengakses layanan NFC, sehingga pembacaan tag dan emulasi tidak berfungsi. Jika Diagnostik menampilkan **Instalasi** gagal, pasang ulang berkas `.ipa` menggunakan TrollStore.
+
 ### Tweak Pendamping (`.deb`)
 - **Kompatibilitas**: iOS 15.0 – 16.5.1+ (Rootless / RootHide)
 - **Pemasangan**: Pasang paket `.deb` yang sesuai via Sileo, Zebra, atau `dpkg -i`, lalu lakukan respring:

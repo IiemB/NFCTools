@@ -10,6 +10,12 @@
 **Changed**
 - NFCTools Plus settings now open in their own page from Settings.
 
+**Fixed**
+- Tapping **Read tag** no longer does nothing when the reader can't start: an alert now explains why (reports `99FAD258`, `AABBB3E8`).
+- When the NFC service keeps answering "Busy", the app no longer restarts it on every tap, which briefly took down Apple Pay and other NFC features. Tag reading on iOS 17.3 and later is still being investigated.
+- If the app wasn't installed with TrollStore, it now says so instead of failing silently. TrollStore is the only supported install method.
+- NFCTools Plus no longer fills the log with a line every time the screen locks.
+
 ## 0.6.17
 
 **Added**

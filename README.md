@@ -105,6 +105,9 @@ nfctools help                                     # Show help (and, on beta buil
 - **Compatibility**: iOS 15.0 and later (iOS 18 and later is untested)
 - **Installation**: Install `NFCTools_<version>+<build>.ipa` via **TrollStore**.
 
+> [!IMPORTANT]
+> **TrollStore is the only supported way to install the app.** NFCTools needs private NFC entitlements and runs outside the app sandbox, which only TrollStore can grant. Sideloading (AltStore, SideStore, Sideloadly, Xcode), LiveContainer, signing services and other installers leave the app sandboxed: it opens, but cannot reach the NFC service, so tag reading and emulation do nothing. If Diagnostics shows **Installation** as failed, reinstall the `.ipa` with TrollStore.
+
 ### Tweak (`.deb`)
 - **Compatibility**: iOS 15.0 – 16.5.1+ (Rootless / RootHide)
 - **Installation**: Install the matching `.deb` via Sileo, Zebra, or `dpkg -i`, then respring:
