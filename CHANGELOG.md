@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.19
+
+**Added**
+- Home now tells you when a new version is available on GitHub, with a **Download** button for the release. Close it to hide it until the next version.
+- **Check for Updates** in Settings › Support checks GitHub right away and tells you whether a new version is available.
+
 ## 0.6.18
 
 **Added**
