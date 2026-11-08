@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.6.20
+## 0.7.2
 
 **Added**
 - A tag you read and save now gets a random card color, different from your other tags where possible. You can still change it.
