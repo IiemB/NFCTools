@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.3
+
+**Changed**
+- "Update Available" is now a card on top of your tags, with a Download button. Swipe it aside like any card, or tap ✕ to hide it until the next release.
+
 ## 0.7.2
 
 **Added**
