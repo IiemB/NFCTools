@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="content/banner.png" alt="NFCTools: read, emulate and organize NFC tags on your iPhone">
+</p>
+
 # NFCTools for iOS 📱⚡
 
 <p align="center">
@@ -53,7 +57,8 @@ The core app is packaged as a standalone `.ipa` (installed via TrollStore) provi
 ### 🗃️ Tag Library & Organization
 - **Local Tag Vault**: Store your scanned tags with custom nicknames, over 50+ custom SF Symbol glyphs, and selectable color accents.
 - **Record Editor**: Create and edit NDEF Text (multi-line) and URL records.
-- **Drag-and-Drop Reordering**: Organize your saved tag library with custom order persistence.
+- **Card Deck Home**: Your saved tags are a stack of cards in each tag's color and icon. Swipe left or right to move through them (it loops), tap **▶** to emulate, or tap a card to open its details.
+- **Reordering**: Change the order of your cards in **Settings › Tags › Reorder Tags**; export the whole library from the same section.
 - **Portable Backup (`.nftag`)**: Export and import individual tag files with safety verification sheets to share or restore your tag library.
 
 ### 🏷️ Magic Tag Cloning & UID Writing
@@ -65,7 +70,7 @@ The core app is packaged as a standalone `.ipa` (installed via TrollStore) provi
 - **Send Report to Developer**: From Settings › Diagnostics, send the results, your iPhone model and iOS version, an optional note, and the app log straight to the developer. The log is encrypted on your iPhone so only the developer can read it. You get a report ID to quote if you follow up on GitHub.
 
 ### 🎨 Native User Experience
-- **100% Native SwiftUI**: Modern layout with fluid transitions, dark and light theme support, and custom radar animations.
+- **100% Native SwiftUI**: Modern layout with fluid card transitions, dark and light theme support, custom radar animations, and VoiceOver and Reduce Motion support.
 - **Home Screen & Lock Screen Widgets**: An 8-slot Home Screen widget and four circular Lock Screen widgets (iOS 16+) for one-tap emulation. Settings shows live previews that match the real widgets.
 
 ---
@@ -105,6 +110,9 @@ nfctools help                                     # Show help (and, on beta buil
 - **Compatibility**: iOS 15.0 and later (iOS 18 and later is untested)
 - **Installation**: Install `NFCTools_<version>+<build>.ipa` via **TrollStore**.
 
+> [!IMPORTANT]
+> **TrollStore is the only supported way to install the app.** NFCTools needs private NFC entitlements and runs outside the app sandbox, which only TrollStore can grant. Sideloading (AltStore, SideStore, Sideloadly, Xcode), LiveContainer, signing services and other installers leave the app sandboxed: it opens, but cannot reach the NFC service, so tag reading and emulation do nothing. If Diagnostics shows **Installation** as failed, reinstall the `.ipa` with TrollStore.
+
 ### Tweak (`.deb`)
 - **Compatibility**: iOS 15.0 – 16.5.1+ (Rootless / RootHide)
 - **Installation**: Install the matching `.deb` via Sileo, Zebra, or `dpkg -i`, then respring:
@@ -126,7 +134,7 @@ Feedback and reports help a lot, so thank you.
 
 ## 📄 Terms & Privacy
 
-The Terms of Use and Privacy Policy are in the app under **Settings › Terms & Privacy**, and the source text is in [`content/legal.json`](content/legal.json). In short, the app has no accounts, ads, or analytics, and sends nothing to the developer unless you choose to send a report.
+The Terms of Use and Privacy Policy are in the app under **Settings › Terms & Privacy**, and the source text is in [`content/legal/`](content/legal/). In short, the app has no accounts, ads, or analytics, and sends nothing to the developer unless you choose to send a report.
 
 ---
 

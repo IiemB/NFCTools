@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="content/banner.png" alt="NFCTools: baca, emulasikan, dan kelola tag NFC di iPhone Anda">
+</p>
+
 # NFCTools untuk iOS 📱⚡
 
 <p align="center">
@@ -47,7 +51,8 @@ Aplikasi utama dikemas sebagai berkas `.ipa` mandiri (dipasang via TrollStore) y
 ### 🗃️ Brankas Kartu & Pengelolaan
 - **Penyimpanan Lokal Terenkripsi**: Simpan tag hasil pindaian dengan nama panggilan kustom, lebih dari 50+ ikon SF Symbols, dan pilihan warna aksen.
 - **Editor Data**: Buat dan ubah rekaman NDEF Teks (multi-baris) dan URL.
-- **Atur Urutan dengan Geser & Lepas**: Rapikan urutan daftar kartu tersimpan Anda sesuai kebutuhan.
+- **Beranda Tumpukan Kartu**: Tag tersimpan tampil sebagai tumpukan kartu dengan warna dan ikon masing-masing. Geser ke kiri atau kanan untuk berpindah (berputar terus), ketuk **▶** untuk emulasi, atau ketuk kartu untuk membuka detailnya.
+- **Atur Urutan**: Ubah urutan kartu di **Pengaturan › Tag › Urutkan Tag**; ekspor seluruh koleksi dari bagian yang sama.
 - **Cadangan Portabel (`.nftag`)**: Ekspor dan impor berkas tag individual dilengkapi layar verifikasi keamanan untuk berbagi atau memulihkan koleksi kartu.
 
 ### 🏷️ Kloning Tag Magic & Penulisan UID
@@ -59,7 +64,7 @@ Aplikasi utama dikemas sebagai berkas `.ipa` mandiri (dipasang via TrollStore) y
 - **Kirim Laporan ke Pengembang**: Dari Pengaturan › Diagnostik, kirimkan hasil pengujian, model perangkat, versi iOS, catatan tambahan (opsional), serta log aplikasi langsung ke pengembang. Log dienkripsi di perangkat Anda sehingga hanya pengembang yang dapat membukanya. Anda akan menerima ID laporan untuk dilampirkan jika berdiskusi di GitHub.
 
 ### 🎨 Pengalaman Pengguna Native
-- **100% Native SwiftUI**: Antarmuka modern dengan transisi halus, mendukung tema gelap/terang, dan animasi radar kustom.
+- **100% Native SwiftUI**: Antarmuka modern dengan transisi kartu yang halus, mendukung tema gelap/terang, animasi radar kustom, serta VoiceOver dan Kurangi Gerakan.
 - **Widget Layar Utama & Layar Kunci**: Widget Layar Utama 8-slot dan 4 widget melingkar di Layar Kunci (iOS 16+) untuk memulai emulasi dalam sekali ketuk. Pengaturan menyediakan pratinjau langsung sesuai tampilan widget aslinya.
 
 ---
@@ -99,6 +104,9 @@ nfctools help                                    # Bantuan (dan tanggal kedaluwa
 - **Kompatibilitas**: iOS 15.0 ke atas (iOS 18 ke atas masih dalam tahap pengujian)
 - **Pemasangan**: Pasang berkas `NFCTools_<version>+<build>.ipa` menggunakan **TrollStore**.
 
+> [!IMPORTANT]
+> **TrollStore adalah satu-satunya cara pemasangan aplikasi yang didukung.** NFCTools membutuhkan entitlement NFC privat dan berjalan di luar sandbox aplikasi, yang hanya dapat diberikan oleh TrollStore. Sideload (AltStore, SideStore, Sideloadly, Xcode), LiveContainer, layanan signing, dan pemasang lain membuat aplikasi tetap berjalan dalam sandbox: aplikasi dapat dibuka, tetapi tidak dapat mengakses layanan NFC, sehingga pembacaan tag dan emulasi tidak berfungsi. Jika Diagnostik menampilkan **Instalasi** gagal, pasang ulang berkas `.ipa` menggunakan TrollStore.
+
 ### Tweak Pendamping (`.deb`)
 - **Kompatibilitas**: iOS 15.0 – 16.5.1+ (Rootless / RootHide)
 - **Pemasangan**: Pasang paket `.deb` yang sesuai via Sileo, Zebra, atau `dpkg -i`, lalu lakukan respring:
@@ -120,7 +128,7 @@ Masukan dan laporan pengujian sangat membantu pengembangan proyek ini.
 
 ## 📄 Ketentuan & Privasi
 
-Ketentuan Penggunaan dan Kebijakan Privasi dapat dilihat langsung di aplikasi pada menu **Pengaturan › Ketentuan & Privasi**, dan teks sumbernya tersedia di [`content/legal.json`](content/legal.json). Singkatnya: aplikasi ini tidak menggunakan akun, tidak ada iklan maupun analitik/pelacakan, dan tidak mengirim data apa pun ke pengembang kecuali Anda secara sukarela memilih untuk mengirim laporan masalah.
+Ketentuan Penggunaan dan Kebijakan Privasi dapat dilihat langsung di aplikasi pada menu **Pengaturan › Ketentuan & Privasi**, dan teks sumbernya tersedia di [`content/legal/`](content/legal/). Singkatnya: aplikasi ini tidak menggunakan akun, tidak ada iklan maupun analitik/pelacakan, dan tidak mengirim data apa pun ke pengembang kecuali Anda secara sukarela memilih untuk mengirim laporan masalah.
 
 ---
 
