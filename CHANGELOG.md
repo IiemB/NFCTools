@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.4
+
+**Added**
+- Send Report now has an optional Contact field, so we can reply to you about your report.
+- Reports can include attachments: recent crash logs from NFCTools (included by default, with a switch to leave them out), plus up to 4 photos or files. Like the log, attachments are encrypted so only the developer can read them.
+
+**Fixed**
+- "Can't Start Reader… (Busy)" on some devices, notably iOS 17.3.1. If you still see it on this version, please send a report.
+
 ## 0.7.3
 
 **Changed**
