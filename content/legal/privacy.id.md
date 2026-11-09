@@ -1,4 +1,4 @@
-<!-- updated: 2026-10-29 -->
+<!-- updated: 2026-11-09 -->
 # Kebijakan Privasi
 
 ## Ringkasnya
@@ -23,7 +23,13 @@ Untuk menampilkan versi terbaru ketentuan ini, aplikasi mengunduhnya dari GitHub
 
 Halaman Diagnostik memiliki tombol Kirim Laporan. Laporan hanya dikirim ketika Anda mengetuknya, dan Anda dapat melihat isinya sebelum mengirim. Laporan berisi hasil Diagnostik, detail dasar seperti model iPhone dan versi iOS, catatan yang Anda tambahkan, serta log aktivitas aplikasi, yang membantu melacak masalah dan mungkin memuat beberapa detail tentang tag yang pernah Anda gunakan.
 
-Log dienkripsi di iPhone Anda sebelum dikirim, sehingga hanya pengembang yang dapat membacanya; layanan yang mengantarkan laporan tidak dapat membacanya. Laporan hanya digunakan untuk memperbaiki masalah. Tidak ada yang pernah dikirim secara otomatis.
+Anda juga dapat memilih untuk menambahkan:
+
+- **Detail kontak**, seperti alamat email atau nama pengguna Telegram, jika Anda ingin pengembang membalas. Detail ini hanya digunakan untuk menindaklanjuti laporan tersebut.
+- **Log crash** dari 7 hari terakhir, untuk NFC Tools, NFC Tools Plus, layanan NFC iPhone, dan Layar Utama. Laporan menampilkan daftarnya, dan Anda dapat menonaktifkannya sebelum mengirim.
+- **Foto atau file** yang Anda pilih, seperti tangkapan layar pesan galat.
+
+Log dan semua lampiran dienkripsi di iPhone Anda sebelum dikirim, sehingga hanya pengembang yang dapat membacanya; layanan yang mengantarkan laporan tidak dapat membacanya. Catatan, detail kontak, dan nama lampiran tidak dienkripsi. Laporan hanya digunakan untuk memperbaiki masalah. Tidak ada yang pernah dikirim secara otomatis.
 
 ## Perubahan dan Kontak
 

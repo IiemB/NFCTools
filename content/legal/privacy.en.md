@@ -1,4 +1,4 @@
-<!-- updated: 2026-10-29 -->
+<!-- updated: 2026-11-09 -->
 # Privacy Policy
 
 ## In Short
@@ -23,7 +23,13 @@ To show the latest version of these terms, the app downloads them from GitHub. T
 
 The Diagnostics page has a Send Report button. A report is sent only when you tap it, and you can see what it includes before sending. It contains the Diagnostics results, basic details like your iPhone model and iOS version, any note you add, and the app's activity log, which helps trace the problem and may include some details about tags you've used.
 
-The log is encrypted on your iPhone before it's sent, so only the developer can read it; the services that deliver the report can't. Reports are only used to fix problems. Nothing is ever sent automatically.
+You can also choose to add:
+
+- **Contact details**, such as an email address or Telegram username, if you'd like the developer to reply. They're used only to follow up on that report.
+- **Crash logs** from the last 7 days, for NFC Tools, NFC Tools Plus, the iPhone's NFC service and the Home Screen. The report lists them, and you can turn them off before sending.
+- **Photos or files** you pick, such as a screenshot of an error.
+
+The log and any attachments are encrypted on your iPhone before they're sent, so only the developer can read them; the services that deliver the report can't. The note, contact details and attachment names are not encrypted. Reports are only used to fix problems. Nothing is ever sent automatically.
 
 ## Changes and Contact
 
