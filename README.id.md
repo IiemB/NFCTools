@@ -27,7 +27,7 @@
 
 ## 📥 Unduh
 
-Dapatkan versi terbaru di **[Halaman Rilis](https://github.com/IiemB/NFCTools/releases/latest)**. Berkas versi beta menyertakan kata `beta` pada nama filenya (`NFCTools_<version>-beta+<build>.ipa`, `NFCTools_Plus_<version>~beta+<build>_…deb`).
+Dapatkan versi terbaru di **[Halaman Rilis](https://github.com/IiemB/NFCTools/releases/latest)**. Berkas versi beta menyertakan kata `beta` pada nama berkasnya (`NFCTools_<version>-beta+<build>.ipa`, `NFCTools_Plus_<version>~beta+<build>_…deb`).
 
 ---
 
@@ -60,12 +60,12 @@ Aplikasi utama dikemas sebagai berkas `.ipa` mandiri (dipasang via TrollStore) y
 - **Protokol yang Didukung**: Gen3 APDU, Magic Tipe 2 (NTAG21x / MIFARE Ultralight dengan kalkulasi checksum BCC otomatis dan perlindungan bita pabrikan), serta tag Gen4 UMC.
 
 ### 🩺 Diagnostik & Laporan Masalah
-- **Halaman Diagnostik**: Pemeriksaan status dalam bahasa yang mudah dipahami mencakup versi iOS, model iPhone, instalasi, pembacaan tag, emulasi, chip NFC, layanan sistem nfc, penyimpanan, tag tersimpan, dan status NFCTools Plus. Ditampilkan saat peluncuran pertama atau kapan saja melalui **Pengaturan › Diagnostik**.
+- **Halaman Diagnostik**: Pemeriksaan status dalam bahasa yang mudah dipahami mencakup versi iOS, model iPhone, instalasi, pembacaan tag, emulasi, chip NFC, layanan NFC, penyimpanan, tag tersimpan, dan status NFCTools Plus. Ditampilkan saat peluncuran pertama atau kapan saja melalui **Pengaturan › Diagnostik**.
 - **Kirim Laporan ke Pengembang**: Dari Pengaturan › Diagnostik, kirimkan hasil pengujian, model perangkat, versi iOS, catatan tambahan (opsional), serta log aplikasi langsung ke pengembang. Log dienkripsi di perangkat Anda sehingga hanya pengembang yang dapat membukanya. Anda akan menerima ID laporan untuk dilampirkan jika berdiskusi di GitHub.
 
 ### 🎨 Pengalaman Pengguna Native
 - **100% Native SwiftUI**: Antarmuka modern dengan transisi kartu yang halus, mendukung tema gelap/terang, animasi radar kustom, serta VoiceOver dan Kurangi Gerakan.
-- **Widget Layar Utama & Layar Kunci**: Widget Layar Utama 8-slot dan 4 widget melingkar di Layar Kunci (iOS 16+) untuk memulai emulasi dalam sekali ketuk. Pengaturan menyediakan pratinjau langsung sesuai tampilan widget aslinya.
+- **Widget Layar Utama & Layar Terkunci**: Widget Layar Utama 8-slot dan 4 widget melingkar di Layar Terkunci (iOS 16+) untuk memulai emulasi dalam sekali ketuk. Pengaturan menyediakan pratinjau langsung sesuai tampilan widget aslinya.
 
 ---
 
@@ -128,9 +128,7 @@ Masukan dan laporan pengujian sangat membantu pengembangan proyek ini.
 
 ## ☕ Dukungan
 
-Jika aplikasi ini bermanfaat bagi Anda dan ingin
-mendukung pengembangannya, Anda bisa mentraktir saya kopi di Ko-fi — sekecil apa pun sangat berarti dan
-saya hargai. Anda juga bisa mendukung dengan memberi bintang pada repo dan mengirim laporan. Terima kasih!
+NFC Tools gratis — tanpa iklan, akun, atau analitik. Jika aplikasi ini bermanfaat bagi Anda dan ingin mendukung pengembangannya, Anda bisa mentraktir saya kopi di Ko-fi. Sekecil apa pun sangat berarti. Anda juga bisa membantu dengan memberi bintang pada repo dan mengirim laporan. Terima kasih!
 
 [![Dukung saya di Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/iiemb)
 
