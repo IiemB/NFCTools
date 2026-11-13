@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.5
+
+**Fixed**
+- Widget reliability improvements on iOS 17 and later.
+
+**Changed**
+- The Diagnostics "Widgets" check now also reports whether the widget can read its tag data, so a Send Report can pinpoint why a widget shows no icon. If your widget icon isn't showing, please open Settings › Diagnostics and send a report.
+
 ## 0.7.4
 
 **Added**
