@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.7
+
+**Fixed**
+- Another attempt at "Can't Start Reader (Busy)" on iOS 17.3.1. If you still see it, please send a report from Diagnostics.
+
 ## 0.7.6
 
 **Changed**
