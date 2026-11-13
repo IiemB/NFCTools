@@ -132,6 +132,14 @@ Feedback and reports help a lot, so thank you.
 
 ---
 
+## 🌍 Translations
+
+The app is available in English and Bahasa Indonesia. Want it in your language, or spotted a wording that
+could be better? The app's text lives in [`localization/`](localization/), and
+[the guide there](localization/README.md) explains how to contribute, with or without an AI assistant.
+
+---
+
 ## ☕ Support
 
 If it's useful to you and you'd like to support

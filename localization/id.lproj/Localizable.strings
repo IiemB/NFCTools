@@ -1,0 +1,436 @@
+/* Common */
+"common.actions" = "Tindakan";
+"common.cancel" = "Batal";
+"common.delete" = "Hapus";
+"common.done" = "Selesai";
+"common.loading" = "Memuat…";
+"common.paste" = "Tempel";
+"common.save" = "Simpan";
+"common.copy" = "Salin";
+"common.yes" = "Ya";
+"common.no" = "Tidak";
+"common.ok" = "OK";
+
+/* Alerts */
+"alert.tagDisabled.title" = "Tag Dinonaktifkan";
+"alert.tagDisabled.message" = "'%@' sedang nonaktif dan tidak bisa diemulasikan. Aktifkan dulu di detail tag.";
+
+/* Beta */
+"beta.label" = "Beta";
+"beta.ends" = "Beta berakhir";
+"beta.expiredTitle" = "Beta Ini Telah Berakhir";
+"beta.expiredMessage" = "Versi beta NFC Tools ini berhenti bekerja pada %@. Unduh versi terbaru dari halaman rilis GitHub supaya kamu bisa terus memakai aplikasi dan NFCTools Plus.";
+"beta.getLatest" = "Dapatkan Versi Terbaru";
+
+/* Clone to Writable Tag */
+"clone.alertFailedTitle" = "Gagal Mengkloning";
+"clone.alertSuccessTitle" = "UID Berhasil Dikloning";
+"clone.errorConnectFailed" = "Tidak bisa terhubung ke tag tujuan (%@).";
+"clone.errorGen3Requires4Or7Byte" = "Kartu magic Gen3 APDU hanya mendukung UID 4-byte atau 7-byte.";
+"clone.errorInvalidUid" = "Tag tersimpan ini tidak punya UID 4, 7, atau 10-byte yang valid.";
+"clone.errorType2Requires7Byte" = "Tag Magic Tipe 2 (NTAG / Ultralight) memerlukan UID 7-byte.";
+"clone.errorWriteFailed" = "Tag tujuan menolak perintah tulis UID %@. Pastikan kamu memakai tag writable (Magic) yang kompatibel.";
+"clone.readyStatus" = "Dekatkan tag writable (Magic) ke bagian atas iPhone…";
+"clone.starting" = "Memulai Sesi Kloning…";
+"clone.stop" = "Hentikan Kloning";
+"clone.stopA11y" = "Hentikan Kloning";
+"clone.successMessage" = "Berhasil menulis UID %@ ke tag writable melalui %@.";
+"clone.typeAuto" = "Deteksi Otomatis Tag Writable";
+"clone.typeGen3" = "Gen3 Magic MIFARE (APDU 90 FB / 90 F0)";
+"clone.typeGen4" = "Gen4 Ultimate Magic Card (UMC)";
+"clone.typeMagicType2" = "Magic NTAG / Ultralight (7-Byte Tipe 2)";
+"clone.writingStatus" = "Tag terdeteksi — menulis blok UID…";
+
+/* Create Tag */
+"create.advancedControls" = "Parameter Tingkat Lanjut";
+"create.atqa" = "ATQA (Hex)";
+"create.atqaPlaceholder" = "cth. 0x0044";
+"create.infoSection" = "Informasi Tag";
+"create.nicknamePlaceholder" = "Nama panggilan (opsional)";
+"create.presetCustom" = "Khusus";
+"create.presetDesfire" = "MIFARE DESFire";
+"create.presetMifare1k" = "MIFARE Classic 1K";
+"create.presetMifare4k" = "MIFARE Classic 4K";
+"create.presetNtag215" = "NTAG215";
+"create.presetPassport" = "Paspor Elektronik (12B)";
+"create.presetSection" = "Preset Tag";
+"create.presetTriple10" = "Triple UID (10B)";
+"create.presetType4" = "ISO 14443-4 (NDEF)";
+"create.presetUltralight" = "MIFARE Ultralight";
+"create.protocolSection" = "Parameter Protokol";
+"create.randomizeUid" = "UID Acak";
+"create.sak" = "SAK (Hex)";
+"create.sakPlaceholder" = "cth. 0x00";
+"create.technology" = "Teknologi";
+"create.title" = "Tag NFC Baru";
+"create.typeName" = "Tipe Tag";
+"create.typeNamePlaceholder" = "cth. NTAG215";
+"create.uid10Bytes" = "10 Byte";
+"create.uid12Bytes" = "12 Byte";
+"create.uid4Bytes" = "4 Byte";
+"create.uid7Bytes" = "7 Byte";
+"create.uid8Bytes" = "8 Byte";
+"create.uidLength" = "Panjang UID";
+"create.uidNeedsBytes" = "%d / %d byte (kurang %d)";
+"create.uidPlaceholder" = "cth. 04 5A 2B 8C";
+"create.uidSection" = "UID (Pengenal Unik)";
+"create.uidTooLong" = "%d / %d byte (lebih %d byte)";
+"create.uidValid" = "UID %d-byte Valid";
+
+/* Debug */
+"debug.actions" = "Aksi Debug";
+"debug.clearLog" = "Hapus Log";
+"debug.copyLog" = "Salin Log";
+"debug.fieldDetect" = "Deteksi Medan";
+"debug.hexPlaceholder" = "Hex mentah (cth. 30 00)";
+"debug.hideControls" = "Sembunyikan Hex & Kontrol";
+"debug.inspectHW" = "Periksa Perangkat";
+"debug.resetNfc" = "Reset NFC";
+"debug.showControls" = "Tampilkan Hex & Kontrol";
+"debug.startReader" = "Mulai Pembaca";
+"debug.stopEmulating" = "Hentikan Emulasi";
+"debug.stopReader" = "Hentikan Pembaca";
+"debug.testEmulate" = "Uji Emulasi";
+"debug.title" = "Konsol Debug";
+"debug.tx" = "TX";
+"debug.resetFirstLaunch" = "Atur Ulang Peluncuran Pertama";
+
+/* Tag Detail */
+"detail.writeToFormat" = "Tulis ke %@";
+"detail.updateFromTag" = "Perbarui dari Tag";
+"detail.tileRecords" = "Rekaman";
+"detail.tileWrite" = "Tulis";
+"detail.tileMore" = "Lainnya";
+"detail.cloneTitle" = "Tulis ke Tag Lain";
+"detail.copyUrl" = "Salin URL";
+"detail.deleteConfirmMessage" = "Tindakan ini tidak bisa dibatalkan.";
+"detail.deleteConfirmTitle" = "Hapus tag ini?";
+"detail.dialogHce" = "Emulasikan sebagai Host Card (HCE)";
+"detail.dialogNdef" = "Emulasikan sebagai Tag NDEF";
+"detail.duplicate" = "Duplikat";
+"detail.duplicateSuffix" = "(Salinan)";
+"detail.editTag" = "Edit";
+"detail.exportTag" = "Ekspor";
+"detail.fieldHistoricalBytes" = "Byte Riwayat";
+"detail.fieldNdefPayload" = "Rekaman NDEF";
+"detail.fieldNickname" = "Nama Panggilan";
+"detail.fieldRaw" = "Mentah";
+"detail.fieldSaved" = "Disimpan";
+"detail.fieldSelectedAID" = "AID Terpilih";
+"detail.fieldTagTypeId" = "ID Jenis Tag";
+"detail.fieldTechnology" = "Teknologi";
+"detail.fieldUidLength" = "Panjang UID (byte)";
+"detail.saveMessage" = "Tambahkan nama panggilan kalau mau.";
+"detail.saveTitle" = "Simpan Tag";
+"detail.tagProperties" = "Properti Tag";
+"detail.collapseHint" = "Ketuk dua kali untuk kembali ke daftar tag.";
+"detail.widgetIcon" = "Ikon";
+"detail.widgetSection" = "Tampilan";
+"detail.showRaw" = "Tampilkan Nilai Mentah";
+"detail.fieldNdefWritable" = "NDEF Dapat Ditulis";
+"detail.disableTag" = "Nonaktifkan Tag";
+"detail.enableTag" = "Aktifkan Tag";
+"detail.tagDisabledBadge" = "Dinonaktifkan";
+"detail.disabledBanner" = "Tag ini dinonaktifkan. Emulasi, pembaruan, dan pengeditan dibatasi.";
+
+/* Diagnostics */
+"diag.title" = "Diagnostik";
+"diag.intro" = "Memeriksa apakah iPhone ini bisa memakai semua fitur NFC Tools.";
+"diag.running" = "Memeriksa iPhone kamu…";
+"diag.allPassed" = "Semua berfungsi";
+"diag.warnings" = "Siap, dengan beberapa catatan";
+"diag.failures" = "Beberapa fitur tidak akan berfungsi";
+"diag.summaryCounts" = "%d OK · %d catatan · %d masalah";
+"diag.continue" = "Lanjutkan";
+"diag.continueAnyway" = "Tetap Lanjutkan";
+"diag.rerun" = "Periksa Lagi";
+"diag.sendReport" = "Kirim Laporan ke Pengembang";
+"diag.sendReportFooter" = "Mengirim hasil ini dan log aplikasi ke pengembang supaya masalahnya bisa diperbaiki.";
+"diag.sendReportUnavailable" = "Pelaporan belum diatur di build ini.";
+"diag.ios.title" = "Versi iOS";
+"diag.ios.pass" = "Didukung.";
+"diag.ios.warning" = "Versi iOS ini belum diuji. Beberapa fitur mungkin tidak berjalan semestinya.";
+"diag.ios.fail" = "Versi iOS ini terlalu lama untuk NFC Tools.";
+"diag.device.title" = "Model iPhone";
+"diag.device.pass" = "iPhone kamu didukung.";
+"diag.device.warning" = "Model iPhone ini belum diuji. Beberapa fitur mungkin tidak berjalan semestinya.";
+"diag.device.fail" = "Perangkat ini tidak mendukung NFC.";
+"diag.install.title" = "Instalasi";
+"diag.install.pass" = "NFC Tools terinstal dengan benar.";
+"diag.install.fail" = "NFC Tools tidak terinstal dengan benar. Instal ulang dengan TrollStore.";
+"diag.reading.title" = "Membaca Tag";
+"diag.reading.pass" = "Siap membaca tag.";
+"diag.reading.fail" = "Membaca tag tidak tersedia di iPhone ini.";
+"diag.emulation.title" = "Emulasi Tag";
+"diag.emulation.pass" = "Siap mengemulasi tag.";
+"diag.emulation.fail" = "Emulasi tag tidak tersedia di iPhone ini.";
+"diag.hardware.title" = "Chip NFC";
+"diag.hardware.pass" = "Chip NFC ditemukan.";
+"diag.hardware.fail" = "Chip NFC tidak ditemukan, sehingga emulasi tag tidak akan berfungsi.";
+"diag.service.title" = "Layanan NFC";
+"diag.service.pass" = "Berjalan.";
+"diag.service.warning" = "Layanan NFC sedang tidak berjalan. Biasanya akan berjalan lagi dengan sendirinya, jadi coba periksa lagi sebentar lagi.";
+"diag.storage.title" = "Penyimpanan";
+"diag.storage.pass" = "Tag dan pengaturan kamu bisa disimpan.";
+"diag.storage.fail" = "Tag dan pengaturan kamu tidak bisa disimpan.";
+"diag.tags.title" = "Tag Tersimpan";
+"diag.tags.count" = "%@ tersimpan";
+"diag.tags.pass" = "Tag tersimpan kamu bisa dibuka.";
+"diag.tags.info" = "Kamu belum menyimpan tag apa pun.";
+"diag.tags.fail" = "Tag tersimpan kamu tidak bisa dibuka. Mungkin rusak atau dibuat di versi aplikasi yang berbeda.";
+"diag.widgets.title" = "Widget";
+"diag.widgets.pass" = "Widget Layar Utama dan Layar Terkunci tersedia.";
+"diag.widgets.info" = "Widget Layar Utama tersedia. Widget Layar Terkunci memerlukan iOS 16 atau lebih baru.";
+"diag.widgets.warning" = "Widget tidak tersedia di salinan aplikasi ini. Instal ulang NFC Tools.";
+"diag.plus.title" = "NFCTools Plus";
+"diag.plus.version" = "Versi %@";
+"diag.plus.pass" = "Terinstal. Pintasan Pusat Kontrol tersedia.";
+"diag.plus.info" = "Tidak terinstal. Opsional, menambahkan pintasan Pusat Kontrol pada iPhone yang di-jailbreak.";
+"diag.agreePrefix" = "Dengan melanjutkan, kamu menyetujui ";
+"diag.agreeLink" = "Ketentuan Penggunaan dan Kebijakan Privasi";
+
+/* Emulation */
+"emulate.nfcTagFallback" = "Tag NFC";
+"emulate.starting" = "Memulai…";
+"emulate.stopA11y" = "Hentikan Emulasi";
+"emulate.pillNdef" = "Emulasi · NDEF";
+"emulate.pillHce" = "Emulasi · HCE";
+"emulate.holdNearReader" = "Dekatkan iPhone ke pembaca";
+
+/* Export */
+"export.emptyMessage" = "Simpan atau buat setidaknya satu tag sebelum mengekspor.";
+"export.emptyTitle" = "Tidak Ada Tag";
+"export.errorTitle" = "Ekspor Gagal";
+
+/* Home */
+"home.addTag" = "Tambah";
+"home.createTag" = "Buat Tag";
+"home.debugConsole" = "Konsol Debug";
+"home.emulate" = "Emulasikan";
+"home.emptyTitle" = "Belum ada tag tersimpan";
+"home.exportTags" = "Ekspor Semua Tag…";
+"home.importTags" = "Impor Tag…";
+"home.readTag" = "Pindai Tag";
+"home.settings" = "Pengaturan";
+"home.stopReader" = "Hentikan Pembaca";
+"home.title" = "NFC Tools";
+"home.reorder" = "Urutkan Tag";
+"home.cardHint" = "Geser ke atas atau bawah untuk mengganti tag. Ketuk dua kali untuk membuka.";
+"home.cardPosition" = "%1$d dari %2$d";
+"home.emptyDeckHint" = "Dekatkan tag ke bagian atas iPhone untuk membacanya, atau buat tag baru.";
+"settings.tagsSection" = "Tag";
+"settings.developerSection" = "Pengembang";
+"settings.developerFooter" = "Hanya ditampilkan di perangkat debug yang diizinkan.";
+"reorder.hint" = "Seret untuk mengubah urutan kartu di dek Beranda.";
+
+/* Icon Picker */
+"iconPicker.catAll" = "Semua";
+"iconPicker.catCommerce" = "Makanan & Belanja";
+"iconPicker.catDevices" = "Perangkat Keras";
+"iconPicker.catGaming" = "Game & Media";
+"iconPicker.catHealth" = "Kesehatan & Olahraga";
+"iconPicker.catHome" = "Rumah & Tempat";
+"iconPicker.catNature" = "Alam & Elemen";
+"iconPicker.catOffice" = "Identitas & Kerja";
+"iconPicker.catSecurity" = "Akses & Keamanan";
+"iconPicker.catTools" = "Alat & Utilitas";
+"iconPicker.catTransit" = "Transit & Perjalanan";
+"iconPicker.catWireless" = "NFC & Nirkabel";
+"iconPicker.colorSection" = "Warna";
+"iconPicker.defaultColor" = "Warna Bawaan";
+"iconPicker.noResults" = "Tidak ada ikon yang cocok";
+"iconPicker.searchPrompt" = "Cari ikon";
+
+/* Import */
+"import.confirmButton" = "Impor";
+"import.confirmMessage" = "Ditemukan %d tag dalam \"%@\". Impor ke koleksi kamu?";
+"import.confirmTitle" = "Impor Tag NFC";
+"import.emptyMessage" = "File ini tidak memuat data tag NFC.";
+"import.errorTitle" = "Impor Gagal";
+"import.invalidFileTitle" = "File Tag Tidak Valid";
+"import.invalidJsonMessage" = "File yang dipilih bukan dokumen JSON yang valid.";
+"import.successMessage" = "Berhasil mengimpor %d tag NFC.";
+"import.successTitle" = "Impor Berhasil";
+
+/* Language */
+"language.english" = "English";
+"language.indonesian" = "Bahasa Indonesia";
+"language.system" = "Bawaan Sistem";
+
+/* Legal */
+"legal.title" = "Ketentuan & Privasi";
+"legal.termsTitle" = "Ketentuan Penggunaan";
+"legal.privacyTitle" = "Kebijakan Privasi";
+"legal.lastUpdated" = "Terakhir diperbarui: %@";
+"legal.loadFailed" = "Tidak bisa memuat ketentuan. Periksa koneksi kamu lalu coba lagi, atau baca di GitHub.";
+"legal.retry" = "Coba Lagi";
+"legal.viewOnGitHub" = "Lihat di GitHub";
+
+/* Changelog */
+"changelog.title" = "Yang Baru";
+"changelog.current" = "Saat Ini";
+"changelog.loadFailed" = "Tidak bisa memuat catatan perubahan. Periksa koneksi kamu lalu coba lagi, atau baca di GitHub.";
+
+/* Raw JSON */
+"raw.alertTitle" = "Nilai Mentah";
+
+/* Read */
+"read.dupTitle" = "Sudah Tersimpan";
+"read.dupMessage" = "Tag ini sudah ada di koleksi kamu. Simpan salinan lagi?";
+"read.dupSaveCopy" = "Simpan Salinan";
+"read.dupOpenExisting" = "Buka yang Ada";
+
+/* Reader */
+"reader.starting" = "Memulai Pembaca…";
+"reader.failedTitle" = "Pembaca Tidak Dapat Dimulai";
+"reader.failedBusy" = "Layanan NFC menolak sesi pembaca (Busy). Memulai ulang perangkat mungkin membantu. Kalau terus terjadi, kirim laporan dari Diagnostik supaya kami bisa memeriksanya.";
+"reader.failedTimeout" = "Layanan NFC tidak merespons. Coba lagi. Kalau terus terjadi, mulai ulang perangkat lalu kirim laporan dari Diagnostik.";
+"reader.failedSandboxed" = "NFC Tools tidak bisa mengakses layanan NFC karena berjalan dalam sandbox. Pasang aplikasi dengan TrollStore. Pemasang lain (sideload, LiveContainer, AltStore) tidak didukung.";
+"reader.failedGeneric" = "Sesi pembaca tidak bisa dimulai (%@).";
+
+/* Records */
+"record.empty" = "Belum ada rekaman. Tambah di bawah.";
+"record.type" = "Jenis";
+"record.typeText" = "Teks";
+"record.typeUrl" = "URL";
+"record.placeholderUrl" = "https://contoh.com";
+"record.addRecord" = "Tambah Rekaman";
+"record.itemTitle" = "Rekaman";
+"record.editTitle" = "Edit Rekaman";
+"record.placeholder" = "Teks untuk disimpan";
+
+/* Report */
+"report.title" = "Kirim Laporan";
+"report.send" = "Kirim";
+"report.noteHeader" = "Catatan";
+"report.notePlaceholder" = "Apa yang bermasalah? (opsional)";
+"report.privacyPrefix" = "Cara laporan ditangani dijelaskan dalam ";
+"report.sentTitle" = "Laporan terkirim";
+"report.sentMessage" = "Terima kasih. Sebutkan ID laporan ini kalau kamu menghubungi pengembang soal masalah ini.";
+"report.failedTitle" = "Gagal Mengirim Laporan";
+"report.error.network" = "Periksa koneksi internet kamu lalu coba lagi.";
+"report.error.rateLimited" = "Terlalu banyak laporan dalam waktu singkat. Tunggu satu menit lalu coba lagi.";
+"report.error.server" = "Layanan laporan tidak menerima laporan ini. Coba lagi nanti.";
+"report.contactHeader" = "Kontak";
+"report.contactPlaceholder" = "Email, Telegram, atau Discord (opsional)";
+"report.contactFooter" = "Isi hanya kalau kamu bersedia dihubungi pengembang soal laporan ini.";
+"report.attachmentsHeader" = "Lampiran";
+"report.crashLogsToggle" = "Log crash terbaru (%d)";
+"report.crashLogsNone" = "Tidak ada log crash terbaru";
+"report.addPhoto" = "Tambah Foto atau Tangkapan Layar";
+"report.addFile" = "Tambah File";
+"report.removeAttachment" = "Hapus";
+"report.attachmentsFooter" = "Log crash dari 7 hari terakhir membantu menjelaskan crash dan macet.";
+"report.attachFailedTitle" = "Gagal Melampirkan File";
+"report.attachFailedMessage" = "File tidak bisa dibaca atau lebih besar dari 5 MB.";
+
+/* Scan */
+"scan.stop" = "Hentikan";
+"scan.stopA11y" = "Hentikan Pembaca";
+"scan.title" = "Siap Memindai";
+
+/* Settings */
+"settings.advancedSection" = "Lanjutan";
+"settings.emulationMode" = "Mode Emulasi";
+"settings.cloneType" = "Jenis Tulis / Kloning";
+"settings.optionAuto" = "Auto";
+"settings.aboutSection" = "Tentang";
+"settings.supportSection" = "Dukungan";
+"settings.author" = "Pembuat";
+"settings.donate" = "Dukung di Ko-fi";
+"settings.cancel" = "Batal";
+"settings.language" = "Bahasa";
+"settings.languageSection" = "Bahasa";
+"settings.languageFooter" = "Bahasamu belum ada, atau ada terjemahan yang kurang pas?";
+"settings.languageHelpTranslate" = "Bantu terjemahkan di GitHub";
+"settings.lockScreenWidgetSection" = "Widget Layar Terkunci";
+"settings.lockScreenWidgetSlotTitle" = "Widget";
+"settings.title" = "Pengaturan";
+"settings.version" = "Versi";
+"settings.widgetEmpty" = "Simpan tag dulu untuk dipakai di widget.";
+"settings.widgetIconAuto" = "Bawaan";
+"settings.widgetIconTitle" = "Pilih Ikon";
+"settings.widgetSection" = "Widget Layar Utama";
+"settings.widgetSlotEmpty" = "Kosong";
+"settings.widgetSlotNone" = "Tidak ada";
+"settings.widgetSlotTitle" = "Slot Widget";
+"settings.tweakSection" = "NFCTools Plus";
+"settings.tweakStatus" = "Status";
+"settings.tweakInstalled" = "Terinstal";
+"settings.tweakNotInstalled" = "Tidak Terinstal";
+"settings.tweakVersion" = "Versi";
+"settings.tweakTilesSection" = "Tile Pusat Kontrol";
+"settings.tweakTile" = "Tile";
+"settings.tweakOptionsSection" = "Opsi Tweak";
+"settings.tweakEmulateViaCli" = "Emulasi dengan NFC Tools Plus";
+"settings.tweakAutoStop" = "Henti Otomatis";
+"settings.tweakAutoStopSeconds" = "%d Detik";
+"settings.tweakActionsSection" = "Aksi";
+"settings.tweakRespring" = "Muat Ulang SpringBoard";
+"settings.tweakRespringConfirmMessage" = "Muat ulang SpringBoard sekarang?";
+"settings.tweakNotInstalledFooter" = "NFCTools Plus adalah tambahan opsional untuk iPhone yang di-jailbreak. Pasang berkas .deb-nya untuk mendapat tile Pusat Kontrol yang mengemulasi tag tersimpan kamu.";
+"overlay.section" = "Overlay Emulasi";
+"overlay.style" = "Gaya";
+"overlay.stylePill" = "Pil";
+"overlay.styleCompact" = "Ringkas";
+"overlay.styleIsland" = "Pulau";
+"overlay.styleCard" = "Kartu";
+"overlay.styleBubble" = "Gelembung";
+"overlay.styleHidden" = "Tersembunyi";
+"overlay.position" = "Posisi";
+"overlay.positionTop" = "Atas";
+"overlay.positionCenter" = "Tengah";
+"overlay.positionBottom" = "Bawah";
+"overlay.animation" = "Animasi";
+"overlay.animationDrop" = "Turun";
+"overlay.animationPop" = "Muncul";
+"overlay.animationFade" = "Memudar";
+"overlay.animationNone" = "Tanpa Animasi";
+"overlay.countdown" = "Bilah Hitung Mundur";
+"overlay.preview" = "Pratinjau Overlay";
+"settings.widgetPreviewFooter" = "Ketuk tile untuk memilih tag-nya. Begini tampilan widget di Layar Utama kamu.";
+"settings.lockScreenWidgetPreviewFooter" = "Setiap lingkaran adalah widget Layar Terkunci 1 sampai 4. Ketuk salah satu untuk memilih tag-nya.";
+"settings.legal" = "Ketentuan & Privasi";
+"settings.changelog" = "Yang Baru";
+
+/* Update from Tag */
+"update.readyStatus" = "Tahan tag fisik yang sama di atas iPhone untuk menyegarkan rekaman tersimpannya…";
+"update.starting" = "Memulai Sesi Baca Ulang…";
+"update.overlayTag" = "Perbarui Rekaman dari Tag";
+"update.successMessage" = "Rekaman tag tersimpan diperbarui dari tag fisik.";
+"update.errorUidMismatch" = "Itu tag yang berbeda (UID tidak cocok dengan tag tersimpan ini).";
+"update.errorNoUid" = "Tag tersimpan ini tidak punya UID untuk dicocokkan.";
+"update.alertSuccessTitle" = "Rekaman Diperbarui";
+"update.alertFailedTitle" = "Pembaruan Gagal";
+
+/* Write */
+"write.readyStatus" = "Tahan tag yang bisa ditulis NDEF di dekat atas iPhone…";
+"write.overlayTag" = "Tulis Rekaman NDEF";
+"write.starting" = "Memulai Sesi Tulis…";
+"write.alertSuccessTitle" = "Rekaman Ditulis";
+"write.alertFailedTitle" = "Penulisan Gagal";
+"write.successMessage" = "Rekaman ditulis ke tag.";
+"write.errorConnect" = "Tidak bisa terhubung ke tag untuk menulis. Tahan stabil lalu coba lagi.";
+"write.errorFailed" = "Tag menolak penulisan NDEF. Pastikan tag bisa ditulis NDEF dan tidak terkunci.";
+
+/* Update */
+"appUpdate.title" = "Pembaruan Tersedia";
+"appUpdate.message" = "NFC Tools %@ tersedia di GitHub.";
+"appUpdate.messagePlus" = "NFC Tools %@ tersedia di GitHub. Perbarui juga NFCTools Plus dari rilis yang sama.";
+"appUpdate.download" = "Unduh";
+"appUpdate.cardPill" = "Pembaruan";
+"appUpdate.cardHint" = "Ketuk dua kali untuk mengunduh pembaruan.";
+"appUpdate.dismiss" = "Tutup";
+"appUpdate.check" = "Periksa Pembaruan";
+"appUpdate.later" = "Nanti";
+"appUpdate.upToDateTitle" = "Sudah Versi Terbaru";
+"appUpdate.upToDateMessage" = "NFC Tools %@ adalah versi terbaru.";
+"appUpdate.failedTitle" = "Gagal Memeriksa Pembaruan";
+"appUpdate.failedMessage" = "GitHub tidak bisa dijangkau. Periksa koneksi kamu lalu coba lagi.";
+
+/* Hold-a-tag job overlays (Clone / Write / Update) */
+"job.cloneTitle" = "Siap Mengkloning";
+"job.writeTitle" = "Siap Menulis";
+"job.updateTitle" = "Siap Memperbarui";
+"job.writeStopA11y" = "Hentikan Penulisan";
+"job.updateStopA11y" = "Hentikan Pembaruan";

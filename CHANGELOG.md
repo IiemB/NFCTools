@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.8
+
+**Added**
+- Help translate NFCTools: Settings › Language now links to the translation guide on GitHub.
+
 ## 0.7.7
 
 **Fixed**

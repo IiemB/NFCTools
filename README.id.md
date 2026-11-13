@@ -126,6 +126,14 @@ Masukan dan laporan pengujian sangat membantu pengembangan proyek ini.
 
 ---
 
+## 🌍 Terjemahan
+
+Aplikasi ini tersedia dalam bahasa Inggris dan bahasa Indonesia. Ingin menambah bahasa lain atau memperbaiki
+terjemahan yang ada? Teks aplikasi ada di [`localization/`](localization/). Cara berkontribusi dijelaskan
+di [panduannya](localization/README.md) (dalam bahasa Inggris).
+
+---
+
 ## ☕ Dukungan
 
 NFC Tools gratis — tanpa iklan, akun, atau analitik. Jika aplikasi ini bermanfaat bagi Anda dan ingin mendukung pengembangannya, Anda bisa mentraktir saya kopi di Ko-fi. Sekecil apa pun sangat berarti. Anda juga bisa membantu dengan memberi bintang pada repo dan mengirim laporan. Terima kasih!

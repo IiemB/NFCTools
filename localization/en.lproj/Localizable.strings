@@ -1,0 +1,436 @@
+/* Common */
+"common.actions" = "Actions";
+"common.cancel" = "Cancel";
+"common.delete" = "Delete";
+"common.done" = "Done";
+"common.loading" = "Loading…";
+"common.paste" = "Paste";
+"common.save" = "Save";
+"common.copy" = "Copy";
+"common.yes" = "Yes";
+"common.no" = "No";
+"common.ok" = "OK";
+
+/* Alerts */
+"alert.tagDisabled.title" = "Tag Disabled";
+"alert.tagDisabled.message" = "'%@' is currently disabled and cannot be emulated. Enable it in tag details first.";
+
+/* Beta */
+"beta.label" = "Beta";
+"beta.ends" = "Beta ends";
+"beta.expiredTitle" = "This Beta Has Ended";
+"beta.expiredMessage" = "This beta of NFC Tools stopped working on %@. Download the latest version from the GitHub releases page to keep using the app and NFCTools Plus.";
+"beta.getLatest" = "Get the Latest Version";
+
+/* Clone to Writable Tag */
+"clone.alertFailedTitle" = "Clone Failed";
+"clone.alertSuccessTitle" = "UID Cloned Successfully";
+"clone.errorConnectFailed" = "Could not connect to target tag (%@).";
+"clone.errorGen3Requires4Or7Byte" = "Gen3 APDU magic cards only support 4-byte or 7-byte UIDs.";
+"clone.errorInvalidUid" = "The saved tag does not have a valid 4, 7, or 10-byte UID.";
+"clone.errorType2Requires7Byte" = "Magic Type 2 (NTAG / Ultralight) tags require a 7-byte UID.";
+"clone.errorWriteFailed" = "The target tag rejected the %@ UID write commands. Make sure you are using a compatible writable (Magic) tag.";
+"clone.readyStatus" = "Hold writable (Magic) tag near top of iPhone…";
+"clone.starting" = "Starting Clone Session…";
+"clone.stop" = "Stop Cloning";
+"clone.stopA11y" = "Stop Cloning";
+"clone.successMessage" = "Wrote UID %@ to writable tag via %@.";
+"clone.typeAuto" = "Auto-Detect Writable Tag";
+"clone.typeGen3" = "Gen3 Magic MIFARE (APDU 90 FB / 90 F0)";
+"clone.typeGen4" = "Gen4 Ultimate Magic Card (UMC)";
+"clone.typeMagicType2" = "Magic NTAG / Ultralight (7-Byte Type 2)";
+"clone.writingStatus" = "Target detected — writing UID blocks…";
+
+/* Create Tag */
+"create.advancedControls" = "Advanced Parameters";
+"create.atqa" = "ATQA (Hex)";
+"create.atqaPlaceholder" = "e.g. 0x0044";
+"create.infoSection" = "Tag Information";
+"create.nicknamePlaceholder" = "Nickname (optional)";
+"create.presetCustom" = "Custom";
+"create.presetDesfire" = "MIFARE DESFire";
+"create.presetMifare1k" = "MIFARE Classic 1K";
+"create.presetMifare4k" = "MIFARE Classic 4K";
+"create.presetNtag215" = "NTAG215";
+"create.presetPassport" = "e-Passport (12B)";
+"create.presetSection" = "Tag Preset";
+"create.presetTriple10" = "Triple UID (10B)";
+"create.presetType4" = "ISO 14443-4 (NDEF)";
+"create.presetUltralight" = "MIFARE Ultralight";
+"create.protocolSection" = "Protocol Parameters";
+"create.randomizeUid" = "Random UID";
+"create.sak" = "SAK (Hex)";
+"create.sakPlaceholder" = "e.g. 0x00";
+"create.technology" = "Technology";
+"create.title" = "New NFC Tag";
+"create.typeName" = "Tag Type";
+"create.typeNamePlaceholder" = "e.g. NTAG215";
+"create.uid10Bytes" = "10 Bytes";
+"create.uid12Bytes" = "12 Bytes";
+"create.uid4Bytes" = "4 Bytes";
+"create.uid7Bytes" = "7 Bytes";
+"create.uid8Bytes" = "8 Bytes";
+"create.uidLength" = "UID Length";
+"create.uidNeedsBytes" = "%d / %d bytes (needs %d more)";
+"create.uidPlaceholder" = "e.g. 04 5A 2B 8C";
+"create.uidSection" = "UID (Unique Identifier)";
+"create.uidTooLong" = "%d / %d bytes (%d bytes too long)";
+"create.uidValid" = "Valid %d-byte UID";
+
+/* Debug */
+"debug.actions" = "Debug Actions";
+"debug.clearLog" = "Clear Log";
+"debug.copyLog" = "Copy Log";
+"debug.fieldDetect" = "Field Detect";
+"debug.hexPlaceholder" = "Raw hex (e.g. 30 00)";
+"debug.hideControls" = "Hide Hex & Controls";
+"debug.inspectHW" = "Inspect HW";
+"debug.resetNfc" = "Reset NFC";
+"debug.showControls" = "Show Hex & Controls";
+"debug.startReader" = "Start Reader";
+"debug.stopEmulating" = "Stop Emulating";
+"debug.stopReader" = "Stop Reader";
+"debug.testEmulate" = "Test Emulate";
+"debug.title" = "Debug Console";
+"debug.tx" = "TX";
+"debug.resetFirstLaunch" = "Reset First Launch";
+
+/* Tag Detail */
+"detail.writeToFormat" = "Write to %@";
+"detail.updateFromTag" = "Update from Tag";
+"detail.tileRecords" = "Records";
+"detail.tileWrite" = "Write";
+"detail.tileMore" = "More";
+"detail.cloneTitle" = "Write to Another Tag";
+"detail.copyUrl" = "Copy URL";
+"detail.deleteConfirmMessage" = "This action cannot be undone.";
+"detail.deleteConfirmTitle" = "Delete this tag?";
+"detail.dialogHce" = "Emulate as Host Card (HCE)";
+"detail.dialogNdef" = "Emulate as NDEF Tag";
+"detail.duplicate" = "Duplicate";
+"detail.duplicateSuffix" = "(Copy)";
+"detail.editTag" = "Edit";
+"detail.exportTag" = "Export";
+"detail.fieldHistoricalBytes" = "Historical Bytes";
+"detail.fieldNdefPayload" = "NDEF Record";
+"detail.fieldNickname" = "Nickname";
+"detail.fieldRaw" = "Raw";
+"detail.fieldSaved" = "Saved";
+"detail.fieldSelectedAID" = "Selected AID";
+"detail.fieldTagTypeId" = "Tag Type ID";
+"detail.fieldTechnology" = "Technology";
+"detail.fieldUidLength" = "UID Length (bytes)";
+"detail.saveMessage" = "Add an optional nickname.";
+"detail.saveTitle" = "Save Tag";
+"detail.tagProperties" = "Tag Properties";
+"detail.collapseHint" = "Double-tap to go back to your tags.";
+"detail.widgetIcon" = "Icon";
+"detail.widgetSection" = "Appearance";
+"detail.showRaw" = "Show Raw Value";
+"detail.fieldNdefWritable" = "NDEF Writable";
+"detail.disableTag" = "Disable Tag";
+"detail.enableTag" = "Enable Tag";
+"detail.tagDisabledBadge" = "Disabled";
+"detail.disabledBanner" = "This tag is disabled. Emulation, updates, and editing are restricted.";
+
+/* Diagnostics */
+"diag.title" = "Diagnostics";
+"diag.intro" = "Checks whether this iPhone can use every feature of NFC Tools.";
+"diag.running" = "Checking your iPhone…";
+"diag.allPassed" = "Everything is working";
+"diag.warnings" = "Ready, with a few notes";
+"diag.failures" = "Some features won't work";
+"diag.summaryCounts" = "%d OK · %d notes · %d problems";
+"diag.continue" = "Continue";
+"diag.continueAnyway" = "Continue Anyway";
+"diag.rerun" = "Check Again";
+"diag.sendReport" = "Send Report to Developer";
+"diag.sendReportFooter" = "Sends these results and the app log to the developer to help fix problems.";
+"diag.sendReportUnavailable" = "Reporting isn't set up in this build.";
+"diag.ios.title" = "iOS Version";
+"diag.ios.pass" = "Supported.";
+"diag.ios.warning" = "This iOS version hasn't been tested yet. Some features may not work as expected.";
+"diag.ios.fail" = "This iOS version is too old for NFC Tools.";
+"diag.device.title" = "iPhone Model";
+"diag.device.pass" = "Your iPhone is supported.";
+"diag.device.warning" = "This iPhone model hasn't been tested yet. Some features may not work as expected.";
+"diag.device.fail" = "This device doesn't support NFC.";
+"diag.install.title" = "Installation";
+"diag.install.pass" = "NFC Tools is installed correctly.";
+"diag.install.fail" = "NFC Tools isn't installed correctly. Reinstall it with TrollStore.";
+"diag.reading.title" = "Reading Tags";
+"diag.reading.pass" = "Ready to read tags.";
+"diag.reading.fail" = "Reading tags isn't available on this iPhone.";
+"diag.emulation.title" = "Emulating Tags";
+"diag.emulation.pass" = "Ready to emulate tags.";
+"diag.emulation.fail" = "Emulating tags isn't available on this iPhone.";
+"diag.hardware.title" = "NFC Chip";
+"diag.hardware.pass" = "NFC chip found.";
+"diag.hardware.fail" = "The NFC chip couldn't be found, so emulating tags won't work.";
+"diag.service.title" = "NFC Service";
+"diag.service.pass" = "Running.";
+"diag.service.warning" = "The NFC service isn't running right now. It usually starts again by itself, so check again in a moment.";
+"diag.storage.title" = "Storage";
+"diag.storage.pass" = "Your tags and settings can be saved.";
+"diag.storage.fail" = "Your tags and settings can't be saved.";
+"diag.tags.title" = "Saved Tags";
+"diag.tags.count" = "%@ saved";
+"diag.tags.pass" = "Your saved tags can be opened.";
+"diag.tags.info" = "You haven't saved any tags yet.";
+"diag.tags.fail" = "Your saved tags can't be opened. They may be damaged or come from a different version of the app.";
+"diag.widgets.title" = "Widgets";
+"diag.widgets.pass" = "Home Screen and Lock Screen widgets are available.";
+"diag.widgets.info" = "Home Screen widgets are available. Lock Screen widgets need iOS 16 or later.";
+"diag.widgets.warning" = "Widgets aren't available in this copy of the app. Reinstall NFC Tools.";
+"diag.plus.title" = "NFCTools Plus";
+"diag.plus.version" = "Version %@";
+"diag.plus.pass" = "Installed. Control Center shortcuts are available.";
+"diag.plus.info" = "Not installed. It's optional and adds Control Center shortcuts on jailbroken iPhones.";
+"diag.agreePrefix" = "By continuing, you agree to the ";
+"diag.agreeLink" = "Terms of Use and Privacy Policy";
+
+/* Emulation */
+"emulate.nfcTagFallback" = "NFC Tag";
+"emulate.starting" = "Starting…";
+"emulate.stopA11y" = "Stop Emulation";
+"emulate.pillNdef" = "Emulating · NDEF";
+"emulate.pillHce" = "Emulating · HCE";
+"emulate.holdNearReader" = "Hold your iPhone near the reader";
+
+/* Export */
+"export.emptyMessage" = "Save or create at least one tag before exporting.";
+"export.emptyTitle" = "No Tags to Export";
+"export.errorTitle" = "Export Failed";
+
+/* Home */
+"home.addTag" = "Add";
+"home.createTag" = "Create Tag";
+"home.debugConsole" = "Debug Console";
+"home.emulate" = "Emulate";
+"home.emptyTitle" = "No saved tags yet";
+"home.exportTags" = "Export All Tags…";
+"home.importTags" = "Import Tags…";
+"home.readTag" = "Read Tag";
+"home.settings" = "Settings";
+"home.stopReader" = "Stop Reader";
+"home.title" = "NFC Tools";
+"home.reorder" = "Reorder Tags";
+"home.cardHint" = "Swipe up or down to change tags. Double-tap to open.";
+"home.cardPosition" = "%1$d of %2$d";
+"home.emptyDeckHint" = "Hold a tag near the top of your iPhone to read it, or create one from scratch.";
+"settings.tagsSection" = "Tags";
+"settings.developerSection" = "Developer";
+"settings.developerFooter" = "Only shown on authorized debug devices.";
+"reorder.hint" = "Drag to change the order of the cards on the Home deck.";
+
+/* Icon Picker */
+"iconPicker.catAll" = "All";
+"iconPicker.catCommerce" = "Food & Shopping";
+"iconPicker.catDevices" = "Hardware & Tech";
+"iconPicker.catGaming" = "Gaming & Media";
+"iconPicker.catHealth" = "Health & Fitness";
+"iconPicker.catHome" = "Home & Places";
+"iconPicker.catNature" = "Nature & Elements";
+"iconPicker.catOffice" = "Identity & Work";
+"iconPicker.catSecurity" = "Access & Security";
+"iconPicker.catTools" = "Tools & Utility";
+"iconPicker.catTransit" = "Transit & Travel";
+"iconPicker.catWireless" = "NFC & Wireless";
+"iconPicker.colorSection" = "Color";
+"iconPicker.defaultColor" = "Default Color";
+"iconPicker.noResults" = "No matching icons";
+"iconPicker.searchPrompt" = "Search icons";
+
+/* Import */
+"import.confirmButton" = "Import";
+"import.confirmMessage" = "Found %d tag(s) in \"%@\". Do you want to import them into your library?";
+"import.confirmTitle" = "Import NFC Tags";
+"import.emptyMessage" = "The file contains no NFC tag data.";
+"import.errorTitle" = "Import Failed";
+"import.invalidFileTitle" = "Invalid Tag File";
+"import.invalidJsonMessage" = "The selected file is not a valid JSON document.";
+"import.successMessage" = "Successfully imported %d NFC tag(s).";
+"import.successTitle" = "Import Successful";
+
+/* Language */
+"language.english" = "English";
+"language.indonesian" = "Bahasa Indonesia";
+"language.system" = "System Default";
+
+/* Legal */
+"legal.title" = "Terms & Privacy";
+"legal.termsTitle" = "Terms of Use";
+"legal.privacyTitle" = "Privacy Policy";
+"legal.lastUpdated" = "Last updated: %@";
+"legal.loadFailed" = "Couldn't load the terms. Check your connection and try again, or read them on GitHub.";
+"legal.retry" = "Try Again";
+"legal.viewOnGitHub" = "View on GitHub";
+
+/* Changelog */
+"changelog.title" = "What's New";
+"changelog.current" = "Current";
+"changelog.loadFailed" = "Couldn't load the changelog. Check your connection and try again, or read it on GitHub.";
+
+/* Raw JSON */
+"raw.alertTitle" = "Raw Value";
+
+/* Read */
+"read.dupTitle" = "Already Saved";
+"read.dupMessage" = "This tag is already in your library. Save another copy?";
+"read.dupSaveCopy" = "Save Copy";
+"read.dupOpenExisting" = "Open Existing";
+
+/* Reader */
+"reader.starting" = "Starting Reader…";
+"reader.failedTitle" = "Can't Start Reader";
+"reader.failedBusy" = "The NFC service refused the reader session (Busy). Restarting the device may help. If it keeps happening, send a report from Diagnostics so we can look into it.";
+"reader.failedTimeout" = "The NFC service didn't answer. Try again; if it keeps happening, restart the device and send a report from Diagnostics.";
+"reader.failedSandboxed" = "NFC Tools can't reach the NFC service because it is sandboxed. Install the app with TrollStore; other installers (sideloading, LiveContainer, AltStore) are not supported.";
+"reader.failedGeneric" = "The reader session could not start (%@).";
+
+/* Records */
+"record.empty" = "No records yet. Add one below.";
+"record.type" = "Type";
+"record.typeText" = "Text";
+"record.typeUrl" = "URL";
+"record.placeholderUrl" = "https://example.com";
+"record.addRecord" = "Add Record";
+"record.itemTitle" = "Record";
+"record.editTitle" = "Edit Records";
+"record.placeholder" = "Text to store";
+
+/* Report */
+"report.title" = "Send Report";
+"report.send" = "Send";
+"report.noteHeader" = "Note";
+"report.notePlaceholder" = "What went wrong? (optional)";
+"report.privacyPrefix" = "How reports are handled is described in the ";
+"report.sentTitle" = "Report sent";
+"report.sentMessage" = "Thank you. Mention this report ID if you contact the developer about the problem.";
+"report.failedTitle" = "Couldn't Send Report";
+"report.error.network" = "Check your internet connection and try again.";
+"report.error.rateLimited" = "Too many reports in a short time. Wait a minute and try again.";
+"report.error.server" = "The report service didn't accept the report. Try again later.";
+"report.contactHeader" = "Contact";
+"report.contactPlaceholder" = "Email, Telegram or Discord (optional)";
+"report.contactFooter" = "Add one only if you're OK with the developer contacting you about this report.";
+"report.attachmentsHeader" = "Attachments";
+"report.crashLogsToggle" = "Recent crash logs (%d)";
+"report.crashLogsNone" = "No recent crash logs found";
+"report.addPhoto" = "Add Photo or Screenshot";
+"report.addFile" = "Add File";
+"report.removeAttachment" = "Remove";
+"report.attachmentsFooter" = "Crash logs from the last 7 days help explain crashes and freezes.";
+"report.attachFailedTitle" = "Couldn't Attach File";
+"report.attachFailedMessage" = "The file couldn't be read or is larger than 5 MB.";
+
+/* Scan */
+"scan.stop" = "Stop";
+"scan.stopA11y" = "Stop Reader";
+"scan.title" = "Ready to Scan";
+
+/* Settings */
+"settings.advancedSection" = "Advanced";
+"settings.emulationMode" = "Emulation Mode";
+"settings.cloneType" = "Write / Clone Type";
+"settings.optionAuto" = "Auto";
+"settings.aboutSection" = "About";
+"settings.supportSection" = "Support";
+"settings.author" = "Creator";
+"settings.donate" = "Support on Ko-fi";
+"settings.cancel" = "Cancel";
+"settings.language" = "Language";
+"settings.languageSection" = "Language";
+"settings.languageFooter" = "Don't see your language, or found wording that could be better?";
+"settings.languageHelpTranslate" = "Help translate on GitHub";
+"settings.lockScreenWidgetSection" = "Lock Screen Widgets";
+"settings.lockScreenWidgetSlotTitle" = "Widget";
+"settings.title" = "Settings";
+"settings.version" = "Version";
+"settings.widgetEmpty" = "Save a tag first to use it in a widget.";
+"settings.widgetIconAuto" = "Default";
+"settings.widgetIconTitle" = "Choose Icon";
+"settings.widgetSection" = "Home Screen Widget";
+"settings.widgetSlotEmpty" = "Empty";
+"settings.widgetSlotNone" = "None";
+"settings.widgetSlotTitle" = "Widget Slot";
+"settings.tweakSection" = "NFCTools Plus";
+"settings.tweakStatus" = "Status";
+"settings.tweakInstalled" = "Installed";
+"settings.tweakNotInstalled" = "Not Installed";
+"settings.tweakVersion" = "Version";
+"settings.tweakTilesSection" = "Control Center Tiles";
+"settings.tweakTile" = "Tile";
+"settings.tweakOptionsSection" = "Tweak Options";
+"settings.tweakEmulateViaCli" = "Emulate with NFC Tools Plus";
+"settings.tweakAutoStop" = "Auto-Stop";
+"settings.tweakAutoStopSeconds" = "%d Seconds";
+"settings.tweakActionsSection" = "Actions";
+"settings.tweakRespring" = "Respring SpringBoard";
+"settings.tweakRespringConfirmMessage" = "Are you sure you want to respring SpringBoard now?";
+"settings.tweakNotInstalledFooter" = "NFCTools Plus is an optional add-on for jailbroken iPhones. Install its .deb to get Control Center tiles that emulate your saved tags.";
+"overlay.section" = "Emulation Overlay";
+"overlay.style" = "Style";
+"overlay.stylePill" = "Pill";
+"overlay.styleCompact" = "Compact";
+"overlay.styleIsland" = "Island";
+"overlay.styleCard" = "Card";
+"overlay.styleBubble" = "Bubble";
+"overlay.styleHidden" = "Hidden";
+"overlay.position" = "Position";
+"overlay.positionTop" = "Top";
+"overlay.positionCenter" = "Center";
+"overlay.positionBottom" = "Bottom";
+"overlay.animation" = "Animation";
+"overlay.animationDrop" = "Drop";
+"overlay.animationPop" = "Pop";
+"overlay.animationFade" = "Fade";
+"overlay.animationNone" = "None";
+"overlay.countdown" = "Countdown Bar";
+"overlay.preview" = "Preview Overlay";
+"settings.widgetPreviewFooter" = "Tap a tile to choose its tag. This is how the widget looks on your Home Screen.";
+"settings.lockScreenWidgetPreviewFooter" = "Each circle is Lock Screen widget 1–4. Tap one to choose its tag.";
+"settings.legal" = "Terms & Privacy";
+"settings.changelog" = "What's New";
+
+/* Update from Tag */
+"update.readyStatus" = "Hold the same physical tag to the top of iPhone to refresh its saved record…";
+"update.starting" = "Starting Re-read Session…";
+"update.overlayTag" = "Update Record from Tag";
+"update.successMessage" = "Saved tag record updated from the physical tag.";
+"update.errorUidMismatch" = "That is a different tag (UID does not match this saved tag).";
+"update.errorNoUid" = "This saved tag has no UID to match against.";
+"update.alertSuccessTitle" = "Record Updated";
+"update.alertFailedTitle" = "Update Failed";
+
+/* Write */
+"write.readyStatus" = "Hold an NDEF-writable tag near top of iPhone…";
+"write.overlayTag" = "Write NDEF Record";
+"write.starting" = "Starting Write Session…";
+"write.alertSuccessTitle" = "Record Written";
+"write.alertFailedTitle" = "Write Failed";
+"write.successMessage" = "Record written to the tag.";
+"write.errorConnect" = "Could not connect to the tag to write. Hold it steady and try again.";
+"write.errorFailed" = "The tag rejected the NDEF write. Make sure it is NDEF-writable and not locked.";
+
+/* Update */
+"appUpdate.title" = "Update Available";
+"appUpdate.message" = "NFC Tools %@ is available on GitHub.";
+"appUpdate.messagePlus" = "NFC Tools %@ is available on GitHub. Update NFCTools Plus from the same release.";
+"appUpdate.download" = "Download";
+"appUpdate.cardPill" = "Update";
+"appUpdate.cardHint" = "Double-tap to download the update.";
+"appUpdate.dismiss" = "Dismiss";
+"appUpdate.check" = "Check for Updates";
+"appUpdate.later" = "Later";
+"appUpdate.upToDateTitle" = "You're Up to Date";
+"appUpdate.upToDateMessage" = "NFC Tools %@ is the latest version.";
+"appUpdate.failedTitle" = "Couldn't Check for Updates";
+"appUpdate.failedMessage" = "GitHub couldn't be reached. Check your connection and try again.";
+
+/* Hold-a-tag job overlays (Clone / Write / Update) */
+"job.cloneTitle" = "Ready to Clone";
+"job.writeTitle" = "Ready to Write";
+"job.updateTitle" = "Ready to Update";
+"job.writeStopA11y" = "Stop Writing";
+"job.updateStopA11y" = "Stop Updating";
