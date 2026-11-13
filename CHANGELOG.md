@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.6
+
+**Changed**
+- The Ko-fi link in Settings is now a banner at the top of the page.
+
 ## 0.7.5
 
 **Added**
