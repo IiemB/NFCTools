@@ -126,6 +126,18 @@ Masukan dan laporan pengujian sangat membantu pengembangan proyek ini.
 
 ---
 
+## ☕ Dukungan
+
+Jika aplikasi ini bermanfaat bagi Anda dan ingin
+mendukung pengembangannya, Anda bisa mentraktir saya kopi di Ko-fi — sekecil apa pun sangat berarti dan
+saya hargai. Anda juga bisa mendukung dengan memberi bintang pada repo dan mengirim laporan. Terima kasih!
+
+[![Dukung saya di Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/iiemb)
+
+> **[ko-fi.com/iiemb](https://ko-fi.com/iiemb)**
+
+---
+
 ## 📄 Ketentuan & Privasi
 
 Ketentuan Penggunaan dan Kebijakan Privasi dapat dilihat langsung di aplikasi pada menu **Pengaturan › Ketentuan & Privasi**, dan teks sumbernya tersedia di [`content/legal/`](content/legal/). Singkatnya: aplikasi ini tidak menggunakan akun, tidak ada iklan maupun analitik/pelacakan, dan tidak mengirim data apa pun ke pengembang kecuali Anda secara sukarela memilih untuk mengirim laporan masalah.

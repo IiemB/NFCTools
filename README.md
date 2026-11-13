@@ -132,6 +132,18 @@ Feedback and reports help a lot, so thank you.
 
 ---
 
+## ☕ Support
+
+If it's useful to you and you'd like to support
+its development, you can buy me a coffee on Ko-fi — every bit helps and is appreciated. You can also
+support the project by starring the repo and sending reports. Thank you!
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/iiemb)
+
+> **[ko-fi.com/iiemb](https://ko-fi.com/iiemb)**
+
+---
+
 ## 📄 Terms & Privacy
 
 The Terms of Use and Privacy Policy are in the app under **Settings › Terms & Privacy**, and the source text is in [`content/legal/`](content/legal/). In short, the app has no accounts, ads, or analytics, and sends nothing to the developer unless you choose to send a report.

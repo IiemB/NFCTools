@@ -2,6 +2,9 @@
 
 ## 0.7.5
 
+**Added**
+- Support on Ko-fi: a new link in Settings › About if you'd like to support development.
+
 **Fixed**
 - Widget reliability improvements on iOS 17 and later.
 
