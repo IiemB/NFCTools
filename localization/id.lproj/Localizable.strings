@@ -94,6 +94,7 @@
 "debug.title" = "Konsol Debug";
 "debug.tx" = "TX";
 "debug.resetFirstLaunch" = "Atur Ulang Peluncuran Pertama";
+"debug.resetCheckin" = "Atur Ulang Cek Perangkat";
 
 /* Tag Detail */
 "detail.writeToFormat" = "Tulis ke %@";
@@ -427,6 +428,16 @@
 "appUpdate.upToDateMessage" = "NFC Tools %@ adalah versi terbaru.";
 "appUpdate.failedTitle" = "Gagal Memeriksa Pembaruan";
 "appUpdate.failedMessage" = "GitHub tidak bisa dijangkau. Periksa koneksi kamu lalu coba lagi.";
+
+/* Device check-in card */
+"checkin.cardPill" = "Cek Perangkat";
+"checkin.title" = "Semua fitur jalan di perangkat kamu?";
+"checkin.message" = "Beri tahu kami apakah semua fitur berfungsi. Jawaban kamu membantu kami mendukung lebih banyak perangkat.";
+"checkin.works" = "Ya, semua berfungsi";
+"checkin.problem" = "Ada yang tidak berfungsi";
+"checkin.cardHint" = "Ketuk dua kali untuk menjawab semua berfungsi.";
+"checkin.failedTitle" = "Gagal Mengirim Jawaban";
+"checkin.failedMessage" = "Periksa koneksi kamu lalu coba lagi.";
 
 /* Hold-a-tag job overlays (Clone / Write / Update) */
 "job.cloneTitle" = "Siap Mengkloning";

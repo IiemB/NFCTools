@@ -94,6 +94,7 @@
 "debug.title" = "Debug Console";
 "debug.tx" = "TX";
 "debug.resetFirstLaunch" = "Reset First Launch";
+"debug.resetCheckin" = "Reset Device Check-in";
 
 /* Tag Detail */
 "detail.writeToFormat" = "Write to %@";
@@ -427,6 +428,16 @@
 "appUpdate.upToDateMessage" = "NFC Tools %@ is the latest version.";
 "appUpdate.failedTitle" = "Couldn't Check for Updates";
 "appUpdate.failedMessage" = "GitHub couldn't be reached. Check your connection and try again.";
+
+/* Device check-in card */
+"checkin.cardPill" = "Check-in";
+"checkin.title" = "Does everything work on your device?";
+"checkin.message" = "Tell us if every feature works for you. Your answer helps us support more devices.";
+"checkin.works" = "Yes, everything works";
+"checkin.problem" = "Something isn't working";
+"checkin.cardHint" = "Double-tap to answer that everything works.";
+"checkin.failedTitle" = "Couldn't Send Your Answer";
+"checkin.failedMessage" = "Check your connection and try again.";
 
 /* Hold-a-tag job overlays (Clone / Write / Update) */
 "job.cloneTitle" = "Ready to Clone";

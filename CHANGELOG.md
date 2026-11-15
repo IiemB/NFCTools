@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.10
+
+**Added**
+- A one-time card on Home asks whether everything works on your device. Your answer, with your device model and iOS version, goes to the developer. If something isn't working, Diagnostics opens so you can send a report.
+
 ## 0.7.9
 
 **Fixed**
