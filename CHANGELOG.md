@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.11
+
+**Fixed**
+- Apple Pay after emulating from a Control Center tile: the 0.7.9 fix crashed before it could run. It now runs (report 54B428E2).
+
 ## 0.7.10
 
 **Added**
