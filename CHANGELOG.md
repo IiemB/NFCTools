@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.9
+
+**Fixed**
+- Apple Pay no longer stops working after you emulate a tag from a Control Center tile.
+
 ## 0.7.8
 
 **Added**
