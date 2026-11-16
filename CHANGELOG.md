@@ -2,6 +2,9 @@
 
 ## 0.7.11
 
+**Added**
+- Tap Card to Emulate (Settings › Tags): tap a card on Home to start emulating it. The button in the card's corner then opens the tag's details. Off by default.
+
 **Fixed**
 - Apple Pay after emulating from a Control Center tile: the 0.7.9 fix crashed before it could run. It now runs (report 54B428E2).
 

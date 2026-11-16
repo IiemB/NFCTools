@@ -106,6 +106,15 @@ nfctools help                                     # Show help (and, on beta buil
 - An iPhone whose NFC controller supports direct access (e.g. iPhone 12 / 13). Main test device: **iPhone 12 mini, iOS 16.1.2**.
 - The Diagnostics page tells you whether your iPhone and install can use each feature.
 
+### Confirmed Working Devices
+Users have confirmed that everything works on these devices (via the check-in card on Home):
+
+| Device | Model | iOS |
+| --- | --- | --- |
+| iPhone 12 mini | iPhone13,1 | 16.1.2 |
+| iPhone 14 Pro Max | iPhone15,3 | 16.6.1 |
+| iPhone 15 Pro | iPhone16,1 | 17.0 |
+
 ### Main App (`.ipa`)
 - **Compatibility**: iOS 15.0 and later (iOS 18 and later is untested)
 - **Installation**: Install `NFCTools_<version>+<build>.ipa` via **TrollStore**.

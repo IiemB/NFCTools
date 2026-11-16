@@ -100,6 +100,15 @@ nfctools help                                    # Bantuan (dan tanggal kedaluwa
 - iPhone dengan kontroler NFC yang mendukung akses langsung hardware (misal: iPhone 12 / 13). Perangkat uji utama: **iPhone 12 mini, iOS 16.1.2**.
 - Halaman Diagnostik di aplikasi akan memberi tahu apakah iPhone dan jenis instalasi Anda dapat menggunakan masing-masing fitur.
 
+### Perangkat yang Sudah Terkonfirmasi Berfungsi
+Pengguna telah mengonfirmasi bahwa semua fitur berfungsi di perangkat berikut (melalui kartu check-in di Beranda):
+
+| Perangkat | Model | iOS |
+| --- | --- | --- |
+| iPhone 12 mini | iPhone13,1 | 16.1.2 |
+| iPhone 14 Pro Max | iPhone15,3 | 16.6.1 |
+| iPhone 15 Pro | iPhone16,1 | 17.0 |
+
 ### Aplikasi Utama (`.ipa`)
 - **Kompatibilitas**: iOS 15.0 ke atas (iOS 18 ke atas masih dalam tahap pengujian)
 - **Pemasangan**: Pasang berkas `NFCTools_<version>+<build>.ipa` menggunakan **TrollStore**.

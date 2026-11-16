@@ -208,6 +208,7 @@
 "home.createTag" = "Create Tag";
 "home.debugConsole" = "Debug Console";
 "home.emulate" = "Emulate";
+"home.viewDetails" = "View Details";
 "home.emptyTitle" = "No saved tags yet";
 "home.exportTags" = "Export All Tags…";
 "home.importTags" = "Import Tags…";
@@ -217,9 +218,12 @@
 "home.title" = "NFC Tools";
 "home.reorder" = "Reorder Tags";
 "home.cardHint" = "Swipe up or down to change tags. Double-tap to open.";
+"home.cardHintEmulate" = "Swipe up or down to change tags. Double-tap to emulate.";
 "home.cardPosition" = "%1$d of %2$d";
 "home.emptyDeckHint" = "Hold a tag near the top of your iPhone to read it, or create one from scratch.";
 "settings.tagsSection" = "Tags";
+"settings.tapToEmulate" = "Tap Card to Emulate";
+"settings.tapToEmulateFooter" = "Tapping a card on Home starts emulating it. The card's corner button opens its details instead.";
 "settings.developerSection" = "Developer";
 "settings.developerFooter" = "Only shown on authorized debug devices.";
 "reorder.hint" = "Drag to change the order of the cards on the Home deck.";

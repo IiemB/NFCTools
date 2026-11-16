@@ -208,6 +208,7 @@
 "home.createTag" = "Buat Tag";
 "home.debugConsole" = "Konsol Debug";
 "home.emulate" = "Emulasikan";
+"home.viewDetails" = "Lihat Detail";
 "home.emptyTitle" = "Belum ada tag tersimpan";
 "home.exportTags" = "Ekspor Semua Tag…";
 "home.importTags" = "Impor Tag…";
@@ -217,9 +218,12 @@
 "home.title" = "NFC Tools";
 "home.reorder" = "Urutkan Tag";
 "home.cardHint" = "Geser ke atas atau bawah untuk mengganti tag. Ketuk dua kali untuk membuka.";
+"home.cardHintEmulate" = "Geser ke atas atau bawah untuk mengganti tag. Ketuk dua kali untuk mengemulasi.";
 "home.cardPosition" = "%1$d dari %2$d";
 "home.emptyDeckHint" = "Dekatkan tag ke bagian atas iPhone untuk membacanya, atau buat tag baru.";
 "settings.tagsSection" = "Tag";
+"settings.tapToEmulate" = "Ketuk Kartu untuk Emulasi";
+"settings.tapToEmulateFooter" = "Mengetuk kartu di Beranda langsung mengemulasikannya. Tombol di sudut kartu membuka detailnya.";
 "settings.developerSection" = "Pengembang";
 "settings.developerFooter" = "Hanya ditampilkan di perangkat debug yang diizinkan.";
 "reorder.hint" = "Seret untuk mengubah urutan kartu di dek Beranda.";
