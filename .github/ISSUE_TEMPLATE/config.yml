@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download the newest build
+    url: https://github.com/IiemB/NFCTools/releases/latest
+    about: Beta build stopped working? Betas end 14 days after they're built. Get the newest one here.
+  - name: Translation guide
+    url: https://github.com/IiemB/NFCTools/blob/main/localization/README.md
+    about: How to fix or add a language yourself with a pull request.

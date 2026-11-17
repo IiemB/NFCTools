@@ -1,0 +1,133 @@
+name: Bug report
+description: Something in NFCTools or NFCTools Plus doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        **Please send a report from the app first.** Open **Settings › Diagnostics**, tap **Send Report to Developer**,
+        describe what happened in the note, and send it. It includes the app log, encrypted so only the developer
+        can read it. Then paste the report ID it shows you below.
+
+        Using a beta build? A beta stops working 14 days after it was built. If that's the problem, download the
+        newest build from [Releases](https://github.com/IiemB/NFCTools/releases/latest).
+
+  - type: input
+    id: report-id
+    attributes:
+      label: Report ID
+      description: The ID shown after you tap **Send Report to Developer**, for example `2B660F42`. Leave empty if you couldn't send one.
+      placeholder: 2B660F42
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: What isn't working?
+      options:
+        - Reading tags
+        - Emulating a tag in the app
+        - Control Center tiles (NFCTools Plus)
+        - Home Screen or Lock Screen widgets
+        - Apple Pay or Wallet after using NFCTools
+        - Writing or cloning a UID to a magic tag
+        - nfctools command line
+        - Saving, importing or exporting tags
+        - Diagnostics or Send Report
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you expected, and what you saw instead. Include any message the app showed, word for word.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can the developer make it happen again?
+      placeholder: |
+        1. Open NFCTools
+        2. Tap ...
+        3. ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Only happened once
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: NFCTools version
+      description: Shown in **Settings**, for example `0.7.11 (204) beta`.
+      placeholder: 0.7.11 (204) beta
+    validations:
+      required: true
+
+  - type: input
+    id: plus-version
+    attributes:
+      label: NFCTools Plus version
+      description: The tweak version from Sileo, Zebra or Diagnostics, for example `0.7.11~beta+93`. Leave empty if you don't use the tweak.
+      placeholder: 0.7.11~beta+93
+
+  - type: input
+    id: device
+    attributes:
+      label: iPhone model and iOS version
+      placeholder: iPhone 15 Pro, iOS 17.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: jailbreak
+    attributes:
+      label: Jailbreak
+      options:
+        - None (TrollStore only)
+        - Dopamine (rootless)
+        - RootHide
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: hot
+    attributes:
+      label: Was the iPhone warm or charging when it happened?
+      description: A hot iPhone can turn NFC off for a while, which looks like a bug.
+      options:
+        - "No"
+        - "Yes"
+        - Not sure
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, screen recordings, or other tweaks that might be involved.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I installed the app with TrollStore (other installers leave NFC unable to work).
+          required: true
+        - label: I'm on the newest build from Releases, or I've said above which build I'm on.
+          required: true

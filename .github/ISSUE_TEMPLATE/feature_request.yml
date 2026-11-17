@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest something new for NFCTools or NFCTools Plus.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Please check the [open issues](https://github.com/IiemB/NFCTools/issues) first in case
+        someone has already suggested it. If so, add a 👍 there instead.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part is it about?
+      options:
+        - NFCTools app
+        - NFCTools Plus (Control Center tiles)
+        - Widgets
+        - nfctools command line
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe what you're trying to do, and what gets in the way today.
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: How could it work?
+      description: Your idea for how it could look or behave. Sketches and screenshots are welcome.
+
+  - type: input
+    id: tag-type
+    attributes:
+      label: Tag or card type, if relevant
+      description: For example MIFARE Classic 1K, NTAG215, FeliCa, or ISO 15693.

@@ -1,0 +1,52 @@
+name: Translation
+description: Report a wrong or awkward translation, or ask for a new language.
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Comfortable editing a file? You can fix it directly with a pull request. The
+        [translation guide](https://github.com/IiemB/NFCTools/blob/main/localization/README.md) explains how.
+        Otherwise, fill in this form.
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: Bahasa Indonesia
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is it?
+      options:
+        - A wrong or awkward translation
+        - Text that isn't translated
+        - A request for a new language
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: |
+        Where in the app the text appears, what it says now, and what it should say.
+        If you know the key (the left-hand side of the line in `Localizable.strings`), include it.
+      placeholder: |
+        Screen: Settings › Tags
+        Key: "home.reorder"
+        Now: ...
+        Should be: ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: native
+    attributes:
+      label: Are you a native speaker of this language?
+      options:
+        - "Yes"
+        - "No"
