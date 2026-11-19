@@ -43,10 +43,30 @@ Aplikasi utama dikemas sebagai berkas `.ipa` mandiri (dipasang via TrollStore) y
 
 ### ⚡ Emulasi Kartu Virtual
 - **Pancarkan Kartu Virtual Tersimpan**: Emulasikan kartu NFC yang telah disimpan langsung dari iPhone sebagai kartu nirsentuh virtual.
-- **Pengiriman Identitas Khusus (Custom UID)**: Memancarkan UID kustom dan parameter protokol ke pembaca kartu eksternal maupun ponsel lain.
+- **Pengiriman Identitas Khusus (Custom UID)**: Memancarkan UID kustom ke pembaca kartu eksternal maupun ponsel lain.
 - **Umpan Balik Haptik Interaktif**: Getaran haptik responsif akan memicu saat pembaca kartu eksternal melakukan kontak RF dengan kartu virtual Anda.
 - **Applet Virtual NDEF Tipe 4**: Merespons perintah standar APDU SELECT dan READ BINARY sehingga payload NDEF dapat dibaca dengan lancar oleh perangkat lain.
 - **Emulasi dengan NFCTools Plus**: Jika tweak terpasang, aplikasi dapat menyerahkan tugas emulasi ke tweak sehingga Anda mendapatkan overlay melayang kecil dengan tombol Stop alih-alih layar emulasi penuh.
+
+> **ℹ️ Mengapa jenis kartu (ATQA/SAK) kartu yang diemulasikan tidak bisa diubah**
+>
+> Emulasi dapat memancarkan **UID** kustom, tetapi **tidak dapat** mengatur **ATQA** atau **SAK** kustom —
+> dua byte "jenis kartu" yang pertama kali diperiksa oleh pembaca. Di iPhone, kedua nilai ini ditentukan
+> oleh pengontrol NFC Apple, bukan oleh aplikasi: pengontrol menurunkannya dari layanan yang ditawarkan
+> kartu yang diemulasikan. Karena aplikasi mengemulasikan kartu **ISO-DEP / Tipe 4** agar data NDEF dapat
+> dibaca, pengontrol selalu menampilkan **SAK `0x20`** beserta ATQA yang sesuai — terlepas dari nilai asli
+> tag tersebut.
+>
+> Artinya dalam praktik:
+> - Pembaca yang hanya memeriksa **UID** tetap berfungsi normal.
+> - Pembaca yang mewajibkan **ATQA/SAK yang persis sama**, atau jenis kartu tertentu seperti **MIFARE
+>   Classic** (SAK `0x08`), akan menolak tag yang diemulasikan. MIFARE Classic juga bergantung pada
+>   algoritma kepemilikan **Crypto1**, yang tidak dapat diemulasikan oleh iPhone mana pun.
+>
+> Ini adalah batasan perangkat keras/sistem operasi, bukan fitur yang hilang — dikonfirmasi melalui
+> pengujian langsung dan rekayasa balik (reverse engineering) driver NFC iOS. **Untuk salinan yang persis
+> dan diterima semua pembaca, kloning tag ke kartu "magic" Gen4 UMC** menggunakan *Kloning Tag Magic &
+> Penulisan UID* di bawah.
 
 ### 🗃️ Brankas Kartu & Pengelolaan
 - **Penyimpanan Lokal Terenkripsi**: Simpan tag hasil pindaian dengan nama panggilan kustom, lebih dari 50+ ikon SF Symbols, dan pilihan warna aksen.

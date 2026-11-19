@@ -49,10 +49,28 @@ The core app is packaged as a standalone `.ipa` (installed via TrollStore) provi
 
 ### ⚡ Virtual Tag Emulation
 - **Broadcast Saved Virtual Tags**: Emulate saved NFC tags directly from your iPhone as contactless virtual cards.
-- **Custom Identifier Transmission**: Broadcast custom UIDs and protocol parameters to external readers and smartphones.
+- **Custom Identifier Transmission**: Broadcast custom UIDs to external readers and smartphones.
 - **Interactive Reader Feedback**: Real-time tactile haptic feedback triggers the instant an external NFC reader makes RF contact with your virtual tag.
 - **Type 4 NDEF Virtual Applet**: Responds to standard SELECT and READ BINARY APDUs for seamless NDEF payload reading by third-party devices.
 - **Emulate with NFCTools Plus**: With the tweak installed, the app can hand emulation to it, so you get the tweak's small floating pill with a Stop button instead of the full-screen emulation screen.
+
+> **ℹ️ Why an emulated tag's card type (ATQA/SAK) can't be changed**
+>
+> Emulation can broadcast a custom **UID**, but it **cannot** set a custom **ATQA** or **SAK** — the two
+> "card type" bytes a reader checks before anything else. On iPhone these are decided by Apple's NFC
+> controller, not by the app: the controller derives them from the services the emulated card offers.
+> Because the app emulates an **ISO-DEP / Type 4** card so that NDEF data can be read, the controller
+> always advertises **SAK `0x20`** and an ATQA to match — regardless of the original tag's values.
+>
+> What this means in practice:
+> - Readers that only check the **UID** work normally.
+> - Readers that insist on an **exact ATQA/SAK**, or on a specific card type such as **MIFARE Classic**
+>   (SAK `0x08`), will reject an emulated tag. MIFARE Classic additionally relies on the proprietary
+>   **Crypto1** cipher, which no iPhone can emulate.
+>
+> This is a hardware/OS limitation, not a missing feature — it was confirmed by direct testing and
+> reverse engineering of the iOS NFC driver. **For an exact, reader-agnostic copy, clone the tag onto a
+> Gen4 UMC "magic" card** using *Magic Tag Cloning & UID Writing* below.
 
 ### 🗃️ Tag Library & Organization
 - **Local Tag Vault**: Store your scanned tags with custom nicknames, over 50+ custom SF Symbol glyphs, and selectable color accents.
