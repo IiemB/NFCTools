@@ -47,6 +47,8 @@
 "create.atqaPlaceholder" = "cth. 0x0044";
 "create.infoSection" = "Informasi Tag";
 "create.nicknamePlaceholder" = "Nama panggilan (opsional)";
+"create.notePlaceholder" = "Catatan (opsional)";
+"create.noteFooter" = "Catatan pribadi, ditampilkan di atas detail tag. Hanya Anda yang melihatnya.";
 "create.presetCustom" = "Khusus";
 "create.presetDesfire" = "MIFARE DESFire";
 "create.presetMifare1k" = "MIFARE Classic 1K";
@@ -124,6 +126,7 @@
 "detail.saveMessage" = "Tambahkan nama panggilan kalau mau.";
 "detail.saveTitle" = "Simpan Tag";
 "detail.tagProperties" = "Properti Tag";
+"detail.noteSection" = "Catatan";
 "detail.collapseHint" = "Ketuk dua kali untuk kembali ke daftar tag.";
 "detail.widgetIcon" = "Ikon";
 "detail.widgetSection" = "Tampilan";

@@ -47,6 +47,8 @@
 "create.atqaPlaceholder" = "e.g. 0x0044";
 "create.infoSection" = "Tag Information";
 "create.nicknamePlaceholder" = "Nickname (optional)";
+"create.notePlaceholder" = "Note (optional)";
+"create.noteFooter" = "A private note, shown at the top of the tag's detail. Only you see it.";
 "create.presetCustom" = "Custom";
 "create.presetDesfire" = "MIFARE DESFire";
 "create.presetMifare1k" = "MIFARE Classic 1K";
@@ -124,6 +126,7 @@
 "detail.saveMessage" = "Add an optional nickname.";
 "detail.saveTitle" = "Save Tag";
 "detail.tagProperties" = "Tag Properties";
+"detail.noteSection" = "Note";
 "detail.collapseHint" = "Double-tap to go back to your tags.";
 "detail.widgetIcon" = "Icon";
 "detail.widgetSection" = "Appearance";

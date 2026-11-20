@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.13
+
+**Added**
+- Notes on saved tags: give any tag a private note from the Edit screen. It shows at the top of the tag's details, above the properties, and only when it isn't empty. Only you can see it.
+
 ## 0.7.12
 
 **Fixed**
