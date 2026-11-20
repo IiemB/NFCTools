@@ -70,6 +70,7 @@ Aplikasi utama dikemas sebagai berkas `.ipa` mandiri (dipasang via TrollStore) y
 
 ### 🗃️ Brankas Kartu & Pengelolaan
 - **Penyimpanan Lokal Terenkripsi**: Simpan tag hasil pindaian dengan nama panggilan kustom, lebih dari 50+ ikon SF Symbols, dan pilihan warna aksen.
+- **Catatan Pribadi**: Tambahkan catatan teks bebas ke tag mana pun di layar Ubah. Catatan muncul di bagian atas detail tag, di atas propertinya, dan hanya saat tidak kosong.
 - **Editor Data**: Buat dan ubah rekaman NDEF Teks (multi-baris) dan URL.
 - **Beranda Tumpukan Kartu**: Tag tersimpan tampil sebagai tumpukan kartu dengan warna dan ikon masing-masing. Geser ke kiri atau kanan untuk berpindah (berputar terus), ketuk **▶** untuk emulasi, atau ketuk kartu untuk membuka detailnya.
 - **Atur Urutan**: Ubah urutan kartu di **Pengaturan › Tag › Urutkan Tag**; ekspor seluruh koleksi dari bagian yang sama.

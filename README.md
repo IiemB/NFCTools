@@ -74,6 +74,7 @@ The core app is packaged as a standalone `.ipa` (installed via TrollStore) provi
 
 ### 🗃️ Tag Library & Organization
 - **Local Tag Vault**: Store your scanned tags with custom nicknames, over 50+ custom SF Symbol glyphs, and selectable color accents.
+- **Private Notes**: Add a free-text note to any tag in the Edit screen. It appears at the top of the tag's details, above its properties, and only when it isn't empty.
 - **Record Editor**: Create and edit NDEF Text (multi-line) and URL records.
 - **Card Deck Home**: Your saved tags are a stack of cards in each tag's color and icon. Swipe left or right to move through them (it loops), tap **▶** to emulate, or tap a card to open its details.
 - **Reordering**: Change the order of your cards in **Settings › Tags › Reorder Tags**; export the whole library from the same section.
