@@ -445,6 +445,10 @@
 "checkin.cardHint" = "Double-tap to answer that everything works.";
 "checkin.failedTitle" = "Couldn't Send Your Answer";
 "checkin.failedMessage" = "Check your connection and try again.";
+"checkin.reportTitle" = "Send us a diagnostic report";
+"checkin.reportMessage" = "Thanks for letting us know. Run Diagnostics and send the report so we can see what's wrong.";
+"checkin.sendReport" = "Send Diagnostic Report";
+"checkin.reportCardHint" = "Double-tap to open Diagnostics and send a report.";
 
 /* Hold-a-tag job overlays (Clone / Write / Update) */
 "job.cloneTitle" = "Ready to Clone";

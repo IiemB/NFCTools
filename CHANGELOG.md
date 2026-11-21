@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.14
+
+**Changed**
+- Fix sending dignostics report not working properly.
+
 ## 0.7.13
 
 **Added**

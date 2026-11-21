@@ -445,6 +445,10 @@
 "checkin.cardHint" = "Ketuk dua kali untuk menjawab semua berfungsi.";
 "checkin.failedTitle" = "Gagal Mengirim Jawaban";
 "checkin.failedMessage" = "Periksa koneksi kamu lalu coba lagi.";
+"checkin.reportTitle" = "Kirimkan laporan diagnostik";
+"checkin.reportMessage" = "Terima kasih sudah memberi tahu. Jalankan Diagnostik lalu kirim laporannya supaya kami bisa melihat masalahnya.";
+"checkin.sendReport" = "Kirim Laporan Diagnostik";
+"checkin.reportCardHint" = "Ketuk dua kali untuk membuka Diagnostik dan mengirim laporan.";
 
 /* Hold-a-tag job overlays (Clone / Write / Update) */
 "job.cloneTitle" = "Siap Mengkloning";
