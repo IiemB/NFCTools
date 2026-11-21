@@ -130,7 +130,9 @@ Users have confirmed that everything works on these devices (via the check-in ca
 
 | Device | Model | iOS |
 | --- | --- | --- |
+| iPhone 6s | iPhone8,1 | 15.8.8 |
 | iPhone 11 | iPhone12,1 | 16.3 |
+| iPhone SE Gen2 | iPhone12,8 | 16.4.1 |
 | iPhone 12 mini | iPhone13,1 | 16.1.2 |
 | iPhone 14 Pro Max | iPhone15,3 | 16.6.1 |
 | iPhone 15 Pro | iPhone16,1 | 17.0 |
