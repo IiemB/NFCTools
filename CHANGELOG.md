@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.15
+
+**Added**
+- Diagnostics now warns when another NFC tweak is changing how NFC works on your iPhone. Some of these tweaks can make reading and emulation fail (issue #3).
+
 ## 0.7.14
 
 **Changed**

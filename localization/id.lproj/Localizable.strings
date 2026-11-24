@@ -174,6 +174,9 @@
 "diag.service.title" = "Layanan NFC";
 "diag.service.pass" = "Berjalan.";
 "diag.service.warning" = "Layanan NFC sedang tidak berjalan. Biasanya akan berjalan lagi dengan sendirinya, jadi coba periksa lagi sebentar lagi.";
+"diag.conflicts.title" = "Tweak NFC Lain";
+"diag.conflicts.pass" = "Tidak ada.";
+"diag.conflicts.warning" = "Ada tweak lain yang mengubah cara kerja NFC di iPhone ini, sehingga membaca dan emulasi tag bisa gagal. Kalau NFC tidak berfungsi, matikan tweak itu lalu nyalakan ulang iPhone kamu.";
 "diag.storage.title" = "Penyimpanan";
 "diag.storage.pass" = "Tag dan pengaturan kamu bisa disimpan.";
 "diag.storage.fail" = "Tag dan pengaturan kamu tidak bisa disimpan.";
